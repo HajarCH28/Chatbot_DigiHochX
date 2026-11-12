@@ -32,13 +32,14 @@ st.set_page_config(
     page_title="DigiHochX - Admin Dashboard",
     page_icon="🛡️",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
 # CUSTOM CSS (ADMIN THEME)
 # ─────────────────────────────────────────────────────────────────────────────
-st.markdown("""
+st.markdown(
+    """
 <style>
     :root {
         --primary-admin: #1E293B;
@@ -81,7 +82,9 @@ st.markdown("""
         font-size: 0.8rem;
     }
 </style>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SESSION STATE INITIALISIERUNG
@@ -104,7 +107,8 @@ if st.session_state.admin_token:
 # LOGIN-BILDSCHIRM (WENN NICHT AUTHENTIFIZIERT)
 # ─────────────────────────────────────────────────────────────────────────────
 if not is_authenticated:
-    st.markdown("""
+    st.markdown(
+        """
     <div style="max-width: 480px; margin: 4rem auto; padding: 2rem; background: #FFFFFF; border: 1px solid #CBD5E1; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
         <div style="text-align: center; margin-bottom: 1.5rem;">
             <div style="font-size: 2.2rem; margin-bottom: 0.5rem;">🛡️</div>
@@ -112,13 +116,21 @@ if not is_authenticated:
             <p style="color: #64748B; font-size: 0.85rem; margin-top: 0.4rem;">Nur für autorisierte Systemverwalter</p>
         </div>
     </div>
-    """, unsafe_allow_html=True)
+    """,
+        unsafe_allow_html=True,
+    )
 
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         with st.form("admin_login_form"):
-            pwd = st.text_input("Master-Passwort", type="password", placeholder="Admin-Kennwort eingeben")
-            submitted = st.form_submit_button("Authentifizieren", use_container_width=True, type="primary")
+            pwd = st.text_input(
+                "Master-Passwort",
+                type="password",
+                placeholder="Admin-Kennwort eingeben",
+            )
+            submitted = st.form_submit_button(
+                "Authentifizieren", use_container_width=True, type="primary"
+            )
 
             if submitted:
                 token = SecurityManager.authenticate_admin(pwd)
@@ -134,6 +146,7 @@ if not is_authenticated:
 
     st.stop()
 
+
 # ─────────────────────────────────────────────────────────────────────────────
 # AUTHENTIFIZIERTE ADMINISTRATIONS-OBERFLÄCHE
 # ─────────────────────────────────────────────────────────────────────────────
@@ -141,22 +154,27 @@ if not is_authenticated:
 def get_engine():
     return RAGEngine()
 
+
 @st.cache_resource
 def get_chroma():
     return ChromaManager()
+
 
 engine = get_engine()
 chroma = get_chroma()
 
 # Sidebar
 with st.sidebar:
-    st.markdown("""
+    st.markdown(
+        """
     <div style="padding: 0.5rem 0 1rem 0;">
         <span class="badge-admin">🛡️ Administrator-Modus</span>
         <h3 style="margin: 0.5rem 0 0.1rem 0; color: #1E293B;">DigiHochX Admin</h3>
         <p style="font-size: 0.8rem; color: #64748B; margin: 0;">Systemverwaltung & Vektorindex</p>
     </div>
-    """, unsafe_allow_html=True)
+    """,
+        unsafe_allow_html=True,
+    )
 
     menu = st.radio(
         "Verwaltungsbereich",
@@ -165,9 +183,9 @@ with st.sidebar:
             "📤 Dokumenten-Upload & Inkrementelle Indexierung",
             "📚 Dokumentenkatalog (YAML)",
             "⚙️ Vektordatenbank & Wartung",
-            "🔒 Sicherheitsstatus & Audit-Logs"
+            "🔒 Sicherheitsstatus & Audit-Logs",
         ],
-        index=0
+        index=0,
     )
 
     st.markdown("---")
@@ -178,12 +196,15 @@ with st.sidebar:
         st.rerun()
 
 # Hauptbereich Header
-st.markdown("""
+st.markdown(
+    """
 <div class="admin-header">
     <div class="admin-title">DigiHochX System- & Datenverwaltung</div>
     <div class="admin-subtitle">Universität Hildesheim · Arbeitsbereich Informationssysteme und Unternehmensmodellierung (ISUM)</div>
 </div>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TAB 1: SYSTEMSTATUS & ÜBERSICHT
@@ -195,8 +216,14 @@ if menu == "📊 Systemstatus & Übersicht":
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Indexierte Dokumente", len(stats.get("documents", {})))
     c2.metric("Gesamte Vektor-Chunks", stats.get("total_chunks", 0))
-    c3.metric("Wirtschaftsinformatik Chunks", stats.get("by_discipline", {}).get("Wirtschaftsinformatik", 0))
-    c4.metric("Organisationspädagogik Chunks", stats.get("by_discipline", {}).get("Organisationspädagogik", 0))
+    c3.metric(
+        "Wirtschaftsinformatik Chunks",
+        stats.get("by_discipline", {}).get("Wirtschaftsinformatik", 0),
+    )
+    c4.metric(
+        "Organisationspädagogik Chunks",
+        stats.get("by_discipline", {}).get("Organisationspädagogik", 0),
+    )
 
     st.markdown("---")
     col_a, col_b = st.columns(2)
@@ -205,13 +232,19 @@ if menu == "📊 Systemstatus & Übersicht":
         st.markdown("### GWDG Academic Cloud Verbindung")
         llm_status = engine.gwdg.test_connection()
         if llm_status.get("authenticated"):
-            st.success(f"✅ GWDG API verbunden: {llm_status.get('model')} ({llm_status.get('latency_ms', 0):.0f} ms)")
+            st.success(
+                f"✅ GWDG API verbunden: {llm_status.get('model')} ({llm_status.get('latency_ms', 0):.0f} ms)"
+            )
         else:
-            st.warning(f"⚠️ GWDG Status: {llm_status.get('error', 'Nicht konfiguriert')}")
+            st.warning(
+                f"⚠️ GWDG Status: {llm_status.get('error', 'Nicht konfiguriert')}"
+            )
 
     with col_b:
         st.markdown("### ChromaDB Vector Store")
-        st.info(f"Vektor-Dimension: 384 (sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)\n\nPersistiert in: `chroma_db/`")
+        st.info(
+            f"Vektor-Dimension: 384 (sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)\n\nPersistiert in: `chroma_db/`"
+        )
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TAB 2: DOKUMENTEN-UPLOAD & INKREMENTELLE INDEXIERUNG
@@ -227,13 +260,17 @@ elif menu == "📤 Dokumenten-Upload & Inkrementelle Indexierung":
         "PDF-Dateien auswählen",
         type=["pdf"],
         accept_multiple_files=True,
-        help="Dateien werden im Verzeichnis Data/ abgelegt und im Vektorindex erfasst."
+        help="Dateien werden im Verzeichnis Data/ abgelegt und im Vektorindex erfasst.",
     )
 
     if uploaded_files:
         st.info(f"{len(uploaded_files)} Datei(en) bereitgestellt.")
-        if st.button("Dokument(e) inkrementell verarbeiten & indexieren", type="primary"):
-            handle_incremental_pdf_upload(uploaded_files, chroma, language="de", user_role=st.session_state.admin_role)
+        if st.button(
+            "Dokument(e) inkrementell verarbeiten & indexieren", type="primary"
+        ):
+            handle_incremental_pdf_upload(
+                uploaded_files, chroma, lang="de", user_role=st.session_state.admin_role
+            )
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TAB 3: DOKUMENTENKATALOG (YAML)
@@ -257,18 +294,29 @@ elif menu == "⚙️ Vektordatenbank & Wartung":
     st.subheader("ChromaDB Wartung & Re-Indexierung")
 
     stats = engine.get_corpus_stats()
-    st.write(f"Aktuelle Collection: **`digihochx_research_agenda`** ({stats.get('total_chunks', 0)} Chunks)")
+    st.write(
+        f"Aktuelle Collection: **`digihochx_research_agenda`** ({stats.get('total_chunks', 0)} Chunks)"
+    )
 
-    st.warning("Achtung: Die vollständige Re-Indexierung löscht die bestehenden Vektoren und baut den Index aus den Rohdateien in `Data/` neu auf.")
+    st.warning(
+        "Achtung: Die vollständige Re-Indexierung löscht die bestehenden Vektoren und baut den Index aus den Rohdateien in `Data/` neu auf."
+    )
 
-    confirm = st.checkbox("Ich bestätige, dass ich den Vektorindex neu aufbauen möchte.")
-    if st.button("Vollständige Re-Indexierung starten", type="secondary", disabled=not confirm):
-        if not SecurityManager.check_permission(st.session_state.admin_role, Permission.REINDEX_DATABASE):
+    confirm = st.checkbox(
+        "Ich bestätige, dass ich den Vektorindex neu aufbauen möchte."
+    )
+    if st.button(
+        "Vollständige Re-Indexierung starten", type="secondary", disabled=not confirm
+    ):
+        if not SecurityManager.check_permission(
+            st.session_state.admin_role, Permission.REINDEX_DATABASE
+        ):
             st.error("Berechtigung verweigert.")
         else:
             with st.spinner("Re-Indexierung läuft..."):
                 try:
                     from scripts.build_vectorstore import main as run_indexing
+
                     run_indexing()
                     st.success("Re-Indexierung erfolgreich abgeschlossen!")
                     time.sleep(1)
@@ -292,10 +340,12 @@ elif menu == "🔒 Sicherheitsstatus & Audit-Logs":
     """)
 
     st.markdown("### Sicherheitsüberprüfungen im Code")
-    st.code("""
+    st.code(
+        """
     # Absicherung von Schreiboperationen:
     @require_permission(Permission.UPLOAD_DOCUMENT)
     def handle_incremental_pdf_upload(files, chroma, language, user_role):
         ...
-    """, language="python")
-
+    """,
+        language="python",
+    )
