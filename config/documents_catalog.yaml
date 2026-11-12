@@ -1,0 +1,80 @@
+# Katalog der akademischen Dokumente für den DigiHochX Forschungsagenda-Chatbot
+# IT-Studienprojekt Master – Chatbot-Werkstatt
+# AG Informationssysteme und Unternehmensmodellierung (ISUM) · Universität Hildesheim
+# Prof. Dr. Ralf Knackstedt
+
+documents:
+  - id: "russ_2025_bita_hochschule"
+    filename: "Veränderungen der Organisationskultur und des Business-IT-Alignments während und nach der COVID-19-Pandemie am Beispiel einer Schweizer Hochschule.pdf"
+    title: "Veränderungen der Organisationskultur und des Business-IT-Alignments während und nach der COVID-19-Pandemie am Beispiel einer Schweizer Hochschule"
+    short_title: "Russ et al. (2025) - BITA & Organisationskultur"
+    authors:
+      - "Christian Russ"
+      - "Marcel R. Sieber"
+      - "Christian Weber"
+      - "Ninja Leikert-Böhm"
+    year: 2025
+    publication: "HMD Praxis der Wirtschaftsinformatik (Vol. 62, S. 331–343)"
+    doi: "https://doi.org/10.1365/s40702-025-01149-9"
+    discipline: "Wirtschaftsinformatik"
+    research_type: "Beides"  # Empirisch-deskriptiv (Fallstudie ZHAW) & präskriptiv (SAFe, BITA-Modell)
+    core_concepts:
+      - "Business-IT-Alignment (BITA)"
+      - "Organisationskultur"
+      - "Competing Values Framework (Cameron & Quinn)"
+      - "Scaled Agile Framework (SAFe)"
+      - "Hochschul-IT (ZHAW-ICT)"
+      - "Schnittstelle Hochschulleitung - Verwaltung - Dozierende"
+    summary: >
+      Fallstudie zur Untersuchung der Wechselwirkung zwischen Organisationskulturtypen
+      (Clan-, Adhocracy-, Markt-, Hierarchiekultur) und Business-IT-Alignment an einer
+      Schweizer Hochschule während und nach der Pandemie. Beleuchtet Führungs- und
+      Abstimmungsprozesse zwischen strategischer Leitung, IT-Dienstleister und Endnutzern.
+
+  - id: "tintore_2013_learning_capacity"
+    filename: "Identifying the stage of growth in the organisational learning capacity of universities.pdf"
+    title: "Identifying the stage of growth in the organisational learning capacity of universities"
+    short_title: "Tintoré & Arbós (2013) - Organisational Learning Capacity"
+    authors:
+      - "Mireia Tintoré Espuny"
+      - "Albert Arbós Bertran"
+    year: 2013
+    publication: "Universities and Knowledge Society Journal (RUSC), Vol. 10, No 2, pp. 375-393"
+    doi: "http://dx.doi.org/10.7238/rusc.v10i2.1330"
+    discipline: "Organisationspädagogik"
+    research_type: "Deskriptiv"  # Diagnostisches Messinstrument / Reifegradmodell
+    core_concepts:
+      - "Organisational Learning Capacity"
+      - "Learning University"
+      - "Stages of Growth (Dibbon, Hall)"
+      - "Barriers to Learning (interne & externe Barrieren)"
+      - "Teamwork & Shared Leadership"
+      - "Organisational Culture & Values"
+    summary: >
+      Entwicklung und Validierung eines Fragebogeninstruments zur Diagnose der organisationalen
+      Lernkapazität von Universitäten und Fakultäten. Untersucht fördernde Faktoren
+      (Kultur, Führung, Teamarbeit, Strukturen, Ressourcen) sowie hemmende Barrieren (Status-quo-Orientierung,
+      mangelnde Kommunikation, defensive Routinen).
+
+  - id: "elbawab_2024_learning_performance"
+    filename: "Linking organisational learning, performance, and sustainable performance in universities: an empirical study in Europe.pdf"
+    title: "Linking organisational learning, performance, and sustainable performance in universities: an empirical study in Europe"
+    short_title: "Elbawab (2024) - Learning Culture & Performance"
+    authors:
+      - "Roba Elbawab"
+    year: 2024
+    publication: "Humanities and Social Sciences Communications (Nature Portfolio), 11:626"
+    doi: "https://doi.org/10.1057/s41599-024-03114-1"
+    discipline: "Organisationspädagogik / Hochschulforschung"
+    research_type: "Deskriptiv"  # Empirisch-quantitativ (221 Hochschullehrende, 53 Universitäten in Europa)
+    core_concepts:
+      - "Organisational Learning Culture (DLOQ: Dialogue & Inquiry, System Connection)"
+      - "Organisational Learning Process (Information Acquisition, Knowledge Dissemination)"
+      - "University Performance"
+      - "Sustainable Performance (Environmental & Social)"
+      - "Mediation Analysis"
+    summary: >
+      Empirische Studie über 53 europäische Universitäten (221 Lehrende). Zeigt, dass die
+      organisationale Lernkultur die Hochschulperformance und nachhaltige Performance
+      maßgeblich beeinflusst, vermittelt (mediiert) über die operativen Lernprozesse
+      der Informationsbeschaffung und des Wissensaustauschs.

@@ -1,0 +1,290 @@
+[
+  {
+    "model_id": "local_grounded_fallback",
+    "is_live_api": false,
+    "test_runs": [
+      {
+        "question_id": "q1_factual_wi",
+        "category": "Faktenfrage Wirtschaftsinformatik (Russ et al. 2025)",
+        "language": "de",
+        "question": "Welche Merkmale kennzeichnen die ICT-Organisation der ZHAW und welche Rolle spielte das agile Framework SAFe während der COVID-19-Pandemie?",
+        "model_used": "Local Grounded Synthesizer (deepseek-v4-flash-1017)",
+        "latency_seconds": 0.2,
+        "is_abstention": false,
+        "sources_count": 4,
+        "sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6996
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 339",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6911
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.659
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6554
+          }
+        ],
+        "citation_fidelity": {
+          "has_bracketed_citations": true,
+          "cited_pages_match_retrieved": true,
+          "sources_count": 4
+        },
+        "raw_answer": "### Wissenschaftliche Befundsynthese (Lokaler Grounding-Modus)\n\n*Hinweis: Kein GWDG-API-Schlüssel konfiguriert. Direkte quellenbasierte Synthese aus 4 relevanten Textabschnitten:*\n\n**1. [Russ et al. (2025) - BITA & Organisationskultur, p. 333]** (Wirtschaftsinformatik):\n> \"- CIRCLE Welche Merkmale der Organisationskultur sowie der strategischen Ausrichtung von Business und IT bestimmen das Management der ZHAW bzw. ZHAW-ICT auf verschiedenen Ebenen? - CIRCLE Wie und in welchem Ausmass haben sich diese Merkmale nach der Hauptperiode der COVID-19-Pand...\"\n\n**2. [Russ et al. (2025) - BITA & Organisationskultur, p. 339]** (Wirtschaftsinformatik):\n> \"\"(...) durch das agile Framework stehen der Kundennutzen, die Kundenanforderungen und die Kundenzufriedenheit im Vordergrund.\" Die Organisationskultur von ZHAW-ICT wird, wenig überraschend, allgemein unterschiedlich und zum Teil widersprüchlich wahrgenommen. Von aussen wird die Z...\"\n\n**3. [Russ et al. (2025) - BITA & Organisationskultur, p. 334]** (Wirtschaftsinformatik):\n> \"Mit rund 100 Mitarbeitenden betreibt und betreut die ZHAW-ICT an drei Campus-Standorten über hundert IT-Dienstleistungen. Die IT-Strategie 2029 (interne Dokumentation) ist mit dem öffentlichen Leistungsauftrag abgestimmt, um die vier Bereiche Ausbildung, Weiterbildung, angewandte...\"\n\n**4. [Russ et al. (2025) - BITA & Organisationskultur, pp. 341-342]** (Wirtschaftsinformatik):\n> \"Danksagung Diese Studie wurde durch den \"Digital Futures Fund\" (DFF) von ZHAW digital gefördert. Dessen ausserordentlicher COVID-19-Aufruf richtete sich an Mitarbeitende der ZHAW, die eine neue Idee im Bereich der digitalen Transformation erarbeiten oder testen möchten und plausi...\"\n"
+      },
+      {
+        "question_id": "q2_factual_orgpaed",
+        "category": "Faktenfrage Organisationspädagogik (Tintoré & Arbós 2013)",
+        "language": "de",
+        "question": "Welche internen Barrieren des organisationalen Lernens identifizieren Tintoré & Arbós in ihrem Fragebogenmodell?",
+        "model_used": "Local Grounded Synthesizer (deepseek-v4-flash-1017)",
+        "latency_seconds": 0.03,
+        "is_abstention": false,
+        "sources_count": 3,
+        "sources": [
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 378",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6864
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6766
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 377",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6745
+          }
+        ],
+        "citation_fidelity": {
+          "has_bracketed_citations": true,
+          "cited_pages_match_retrieved": true,
+          "sources_count": 3
+        },
+        "raw_answer": "### Wissenschaftliche Befundsynthese (Lokaler Grounding-Modus)\n\n*Hinweis: Kein GWDG-API-Schlüssel konfiguriert. Direkte quellenbasierte Synthese aus 4 relevanten Textabschnitten:*\n\n**1. [Tintoré & Arbós (2013) - Organisational Learning Capacity, p. 378]** (Organisationspädagogik):\n> \"The questionnaire is divided into two main parts: the first one concerns individual learning and the second one concerns organisational learning. The following aspects were selected: first, personal and professional details; second, individual learning; and third, in the organisa...\"\n\n**2. [Elbawab (2024) - Learning Culture & Performance, p. 13]** (Organisationspädagogik / Hochschulforschung):\n> \"Watkins K, Marsick V (1997) Dimensions of the learning organization questionnaire. Partners for the Learning Organization, Warwick, RI Zhang Y, Khan U, Lee S, Salik M (2019) The influence of management innovation and technological innovation on organization performance. A mediati...\"\n\n**3. [Tintoré & Arbós (2013) - Organisational Learning Capacity, p. 377]** (Organisationspädagogik):\n> \"However, drafting this questionnaire was no easy task, not only because of the complexity of evaluating the stage of growth in the organisational learning capacity in terms of teamwork, leadership or culture, but also because of the added difficulty of measuring intangible factor...\"\n\n**4. [Tintoré & Arbós (2013) - Organisational Learning Capacity, p. 377]** (Organisationspädagogik):\n> \"The questionnaire had to be designed in such a way as to identify how developed the learning facilitators in a specific institution are and what kind of barriers exist, in order to determine the disposition towards learning in that institution and the level of development of the...\"\n"
+      },
+      {
+        "question_id": "q3_factual_empirical",
+        "category": "Faktenfrage Empirische Hochschulforschung (Elbawab 2024)",
+        "language": "de",
+        "question": "Wie beeinflussen die Prozesse 'Information Acquisition' und 'Knowledge Dissemination' die Hochschulleistung laut Elbawab (2024)?",
+        "model_used": "Local Grounded Synthesizer (deepseek-v4-flash-1017)",
+        "latency_seconds": 0.03,
+        "is_abstention": false,
+        "sources_count": 3,
+        "sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 9",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.7072
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6748
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 7",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6407
+          }
+        ],
+        "citation_fidelity": {
+          "has_bracketed_citations": true,
+          "cited_pages_match_retrieved": true,
+          "sources_count": 3
+        },
+        "raw_answer": "### Wissenschaftliche Befundsynthese (Lokaler Grounding-Modus)\n\n*Hinweis: Kein GWDG-API-Schlüssel konfiguriert. Direkte quellenbasierte Synthese aus 4 relevanten Textabschnitten:*\n\n**1. [Elbawab (2024) - Learning Culture & Performance, p. 9]** (Organisationspädagogik / Hochschulforschung):\n> \"dissemination processes are, the better the university's performance is going to occur in universities. So practically, the higher the efficiency of the acquisition of knowledge process, like acquiring the information from two sources is leading to a better the university's perfo...\"\n\n**2. [Elbawab (2024) - Learning Culture & Performance, p. 11]** (Organisationspädagogik / Hochschulforschung):\n> \"For the information acquisition process, acquiring information from two sources improves the university's performance. The two sources of information acquisition are internally from within the university and externally from other universities in the market. The author recommends...\"\n\n**3. [Elbawab (2024) - Learning Culture & Performance, p. 11]** (Organisationspädagogik / Hochschulforschung):\n> \"Another practice for enhancing the information acquisition process is comparing the university's performance to other universities. Acquiring information sources could be formally through the formal reports published on a yearly basis (ex: public university performance reports, u...\"\n\n**4. [Elbawab (2024) - Learning Culture & Performance, p. 7]** (Organisationspädagogik / Hochschulforschung):\n> \"Organisational learning culture (dialogue and inquiry and system connection) has an indirect effect on university performance mediated by organisational learning processes (information acquisition and knowledge dissemination), which supports H4. Dialogue and inquiry have an indir...\"\n"
+      },
+      {
+        "question_id": "q4_crosslingual_en_de",
+        "category": "Translinguale Frage EN -> DE (Russ et al. 2025)",
+        "language": "en",
+        "question": "How did the leadership role and coordination between university management and ICT change after the COVID-19 pandemic according to Russ et al.?",
+        "model_used": "Local Grounded Synthesizer (deepseek-v4-flash-1017)",
+        "latency_seconds": 0.03,
+        "is_abstention": false,
+        "sources_count": 4,
+        "sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.7334
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6516
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.644
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 338",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6423
+          }
+        ],
+        "citation_fidelity": {
+          "has_bracketed_citations": true,
+          "cited_pages_match_retrieved": true,
+          "sources_count": 4
+        },
+        "raw_answer": "### Synthesized Research Findings (Offline Grounded Mode)\n\n*Note: GWDG API key not configured. Directly synthesizing factual evidence from 4 relevant excerpts:*\n\n**1. [Russ et al. (2025) - BITA & Organisationskultur, p. 332]** (Wirtschaftsinformatik):\n> \"Abstract In a case study from 2020, the characteristics of different types of organizational culture in the university context during the COVID-19 pandemic were analyzed based on a business-IT alignment model approach. Employees from the information and communication technology d...\"\n\n**2. [Russ et al. (2025) - BITA & Organisationskultur, pp. 332-333]** (Wirtschaftsinformatik):\n> \"Keywords Information and communication technology · University · Organizational culture · Business-IT alignment (BITA) · Agility · COVID-19 Aufgrund der Corona-Krise gab es in vielen Branchen und Industrien einen aus der Not geborenen Schub an Veränderungen. Digitalisierungsproje...\"\n\n**3. [Russ et al. (2025) - BITA & Organisationskultur, p. 342]** (Wirtschaftsinformatik):\n> \"- Abdulrasool F, Turnbull S (2020) The role of IT governance in enhancing the performance of smart universities. In: Hassanien A-E, Azar AT, Gaber T, Oliva D, Tolba FM (Hrsg) Proceedings of the international conference on artificial intelligence and computer vision (AICV2020). Sp...\"\n\n**4. [Russ et al. (2025) - BITA & Organisationskultur, p. 338]** (Wirtschaftsinformatik):\n> \"Im Fokus des Managements von ZHAW-ICT steht offenbar die Strategieumsetzung und die Aufrechterhaltung des Betriebs. Nur scheinbar im Widerspruch zur Rolle der Hochschulleitung, drückt es ein Vertreter des ICT-Managements wie folgt aus:...\"\n"
+      },
+      {
+        "question_id": "q5_interdisciplinary",
+        "category": "Interdisziplinärer Vergleich (WI vs. OrgPäd)",
+        "language": "de",
+        "question": "Inwiefern unterscheidet sich der Blickwinkel der Wirtschaftsinformatik (Business-IT-Alignment) von jenem der Organisationspädagogik (Lernkultur) bei der Transformation von Hochschulen?",
+        "model_used": "Local Grounded Synthesizer (deepseek-v4-flash-1017)",
+        "latency_seconds": 0.04,
+        "is_abstention": false,
+        "sources_count": 4,
+        "sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6325
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "pp. 10-11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6171
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6023
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 2",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6023
+          }
+        ],
+        "citation_fidelity": {
+          "has_bracketed_citations": true,
+          "cited_pages_match_retrieved": true,
+          "sources_count": 4
+        },
+        "raw_answer": "### Wissenschaftliche Befundsynthese (Lokaler Grounding-Modus)\n\n*Hinweis: Kein GWDG-API-Schlüssel konfiguriert. Direkte quellenbasierte Synthese aus 4 relevanten Textabschnitten:*\n\n**1. [Russ et al. (2025) - BITA & Organisationskultur, p. 334]** (Wirtschaftsinformatik):\n> \"Unter IT-Governance wird der übergreifende Versuch und die Bemühung verstanden, den geschäftlichen Nutzen der IT für die Organisation, in diesem Fall die Hochschuleinrichtungen, zu maximieren (Abdulrasool und Turnbull 2020; Scalabrin Bianchi et al. 2021). Dafür werden in verschie...\"\n\n**2. [Elbawab (2024) - Learning Culture & Performance, pp. 10-11]** (Organisationspädagogik / Hochschulforschung):\n> \"Practical implications. This research serves universities; the implications of this research could be adapted to various faculties. The result of this investigation recommends that when universities work on organisational learning culture, it is followed by enhancing the organisa...\"\n\n**3. [Russ et al. (2025) - BITA & Organisationskultur, p. 332]** (Wirtschaftsinformatik):\n> \"Anregungen geben, um in Zukunft besser auf radikale Veränderungen vorbereitet zu sein und den Wertbeitrag der IT als Ganzes zu steigern. Schlüsselwörter Informations- und Kommunikationstechnologie · Hochschule · Organisationskultur · Business-IT-Alignment (BITA) · Agilität · COVI...\"\n\n**4. [Elbawab (2024) - Learning Culture & Performance, p. 2]** (Organisationspädagogik / Hochschulforschung):\n> \"U niversities are facing different types of change, including digitalisation, sustainability, entrepreneurship, and innovation (Leal Filho et al. 2018; Pocol et al. 2022); it is the universities' obligation to cope with this change (Medne et al. 2022; James et al. 1993). One of t...\"\n"
+      },
+      {
+        "question_id": "q6_digihochx_tensions",
+        "category": "Kulturelle Tensions DigiHochX (Verwaltung / Forschung / Lehre)",
+        "language": "de",
+        "question": "Welche Spannungen und Konflikte entstehen an den Schnittstellen zwischen Verwaltung, Forschung und Lehre durch Digitalisierungsmaßnahmen?",
+        "model_used": "Local Grounded Synthesizer (deepseek-v4-flash-1017)",
+        "latency_seconds": 0.02,
+        "is_abstention": false,
+        "sources_count": 4,
+        "sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6781
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 341",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6607
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 376",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6269
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.606
+          }
+        ],
+        "citation_fidelity": {
+          "has_bracketed_citations": true,
+          "cited_pages_match_retrieved": true,
+          "sources_count": 4
+        },
+        "raw_answer": "### Wissenschaftliche Befundsynthese (Lokaler Grounding-Modus)\n\n*Hinweis: Kein GWDG-API-Schlüssel konfiguriert. Direkte quellenbasierte Synthese aus 4 relevanten Textabschnitten:*\n\n**1. [Russ et al. (2025) - BITA & Organisationskultur, pp. 332-333]** (Wirtschaftsinformatik):\n> \"Keywords Information and communication technology · University · Organizational culture · Business-IT alignment (BITA) · Agility · COVID-19 Aufgrund der Corona-Krise gab es in vielen Branchen und Industrien einen aus der Not geborenen Schub an Veränderungen. Digitalisierungsproje...\"\n\n**2. [Russ et al. (2025) - BITA & Organisationskultur, p. 341]** (Wirtschaftsinformatik):\n> \"Die Corona-Krise hat viele Organisationen gezwungen, in kürzester Zeit auf neue Rahmenbedingungen zu reagieren, was vielfach einen Digitalisierungsschub ermöglicht hat. Aufgrund der schwierigen Situation mussten von den Führungskräften unter Zeitdruck Entscheidungen getroffen und...\"\n\n**3. [Tintoré & Arbós (2013) - Organisational Learning Capacity, p. 376]** (Organisationspädagogik):\n> \"Para mejorar el gobierno y la gestión de las universidades, en este artículo proponemos un instrumento para conocer el estado del aprendizaje organizativo en una universidad. Se trata de un cuestionario en torno a los principales factores que influyen en el aprendizaje de la univ...\"\n\n**4. [Russ et al. (2025) - BITA & Organisationskultur, p. 332]** (Wirtschaftsinformatik):\n> \"Anregungen geben, um in Zukunft besser auf radikale Veränderungen vorbereitet zu sein und den Wertbeitrag der IT als Ganzes zu steigern. Schlüsselwörter Informations- und Kommunikationstechnologie · Hochschule · Organisationskultur · Business-IT-Alignment (BITA) · Agilität · COVI...\"\n"
+      },
+      {
+        "question_id": "q7_abstention",
+        "category": "Abstentions- / Anti-Halluzinationstest (Hors-Corpus)",
+        "language": "de",
+        "question": "Welche genauen Fördersummen und Fristen wurden vom Land Niedersachsen für das Digitalpaket 2026 der Universität Hildesheim beschlossen?",
+        "model_used": "Local Grounded Synthesizer (deepseek-v4-flash-1017)",
+        "latency_seconds": 0.03,
+        "is_abstention": false,
+        "sources_count": 4,
+        "sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 12",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.5012
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.501
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 375",
+            "discipline": "Organisationspädagogik",
+            "score": 0.4667
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.4476
+          }
+        ],
+        "citation_fidelity": {
+          "has_bracketed_citations": true,
+          "cited_pages_match_retrieved": true,
+          "sources_count": 4
+        },
+        "raw_answer": "### Wissenschaftliche Befundsynthese (Lokaler Grounding-Modus)\n\n*Hinweis: Kein GWDG-API-Schlüssel konfiguriert. Direkte quellenbasierte Synthese aus 4 relevanten Textabschnitten:*\n\n**1. [Elbawab (2024) - Learning Culture & Performance, p. 12]** (Organisationspädagogik / Hochschulforschung):\n> \"The dataset generated during and/or analysed during the current study is available from the corresponding author upon reasonable request. Received: 20 March 2023; Accepted: 25 April 2024;...\"\n\n**2. [Russ et al. (2025) - BITA & Organisationskultur, pp. 341-342]** (Wirtschaftsinformatik):\n> \"Danksagung Diese Studie wurde durch den \"Digital Futures Fund\" (DFF) von ZHAW digital gefördert. Dessen ausserordentlicher COVID-19-Aufruf richtete sich an Mitarbeitende der ZHAW, die eine neue Idee im Bereich der digitalen Transformation erarbeiten oder testen möchten und plausi...\"\n\n**3. [Tintoré & Arbós (2013) - Organisational Learning Capacity, p. 375]** (Organisationspädagogik):\n> \"http://rusc.uoc.edu Submitted in: April 2012 Accepted in: February 2013 Published in: July 2013 TINTORÉ, Mireia; ARBÓS, Albert (2013). \"Identifying the stage of growth in the organisational learning capacity of universities\" [online article]. Universities and Knowledge Society Jo...\"\n\n**4. [Elbawab (2024) - Learning Culture & Performance, p. 13]** (Organisationspädagogik / Hochschulforschung):\n> \"- Leal Filho, W, Trevisan LV, Rampasso IS, Anholon R, Dinis MAP, Brandli L L, ... Mazutti J (2023) When the alarm bells ring: Why the UN sustainable development goals may not be achieved by 2030. J Clean Prod 407:137108 - Leung SO (2011) A comparison of psychometric properties an...\"\n"
+      }
+    ]
+  }
+]

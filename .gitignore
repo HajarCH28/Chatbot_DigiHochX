@@ -1,0 +1,33 @@
+# Environnement et secrets
+.env
+.env.local
+*.env
+*Schl*ssel*
+*api_key*
+*.key
+
+# Données et caches volumineux
+chroma_db/
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# IDE et OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+# Ignorer les images personnelles et captures d'écran
+*.png
+*.jpg
+*.jpeg
+
+# Ignorer les dossiers de travail locaux ou brouillons (si vous en avez)
+export_drive/
+backup_before_security/

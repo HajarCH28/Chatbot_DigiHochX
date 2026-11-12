@@ -1,0 +1,964 @@
+{
+  "metadata": {
+    "timestamp": "20261107_110413",
+    "api_base": "https://chat-ai.academiccloud.de/v1",
+    "models_tested": [
+      "deepseek-v4.1-flash-1017",
+      "deepseek-v4-flash-0731",
+      "mistral-large-4-1t-a52b"
+    ],
+    "total_questions": 7
+  },
+  "models": {
+    "deepseek-v4.1-flash-1017": [
+      {
+        "question_id": "q1_factual_wi",
+        "category": "Faktenfrage Wirtschaftsinformatik (Russ et al. 2025)",
+        "question": "Welche Merkmale kennzeichnen die ICT-Organisation der ZHAW und welche Rolle spielte das agile Framework SAFe während der COVID-19-Pandemie?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 3.64,
+        "error": null,
+        "answer": "## Merkmale der ICT-Organisation der ZHAW\n\n**Größe und Struktur:** Die ZHAW-ICT betreibt und betreut mit rund 100 Mitarbeitenden an drei Campus-Standorten über hundert IT-Dienstleistungen [Russ et al., 2025, S. 334].\n\n**Strategische Ausrichtung:** Die IT-Strategie 2029 ist mit dem öffentlichen Leistungsauftrag abgestimmt, um die vier Bereiche Ausbildung, Weiterbildung, angewandte Forschung und Beratung zu unterstützen und digital auszubauen [Russ et al., 2025, S. 334]. Als Hauptziele werden genannt: Unterstützung des digitalen Transformationsprozesses der ZHAW, Stärkung der Produktivität der Endnutzerinnen und Endnutzer sowie Förderung der digitalen Bildung, technologiegetriebenen Forschung und Entwicklung und des Einsatzes von agilen und schlanken IT-Prinzipien nach Häusling (2020) [Russ et al., 2025, S. 334].\n\n**Organisationskultur (wahrgenommene Widersprüchlichkeit):** Die Kultur der ZHAW-ICT wird „allgemein unterschiedlich und zum Teil widersprüchlich wahrgenommen\" [Russ et al., 2025, S. 339]. Von außen wird sie „sehr strukturiert und kontrolliert\" eingeschätzt, während ICT-Mitarbeitende und am Incident-Management Beteiligte sie „weit differenzierter sehen\" [Russ et al., 2025, S. 339]. Konkret existiert in den ICT-Teams „offenbar der Clan bzw. die ‚Familie' noch\", gleichzeitig „scheint auch die Hierarchie mit Kontrolle und Struktur weiterhin stark zu sein, etwa wenn von Planung, Arbeitsverteilung und Priorisierung nach Business Value gesprochen wird\" [Russ et al., 2025, S. 339]. Es liegt also eine **hybride Kultur** aus Clan- und Hierarchieelementen vor.\n\n**Agiles Framework (allgemein):** Im Zusammenhang mit dem agilen Framework wird berichtet, dass „der Kundennutzen",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 333"
+          ],
+          "citation_count": 1
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6996
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 339",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6911
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.659
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6554
+          }
+        ]
+      },
+      {
+        "question_id": "q2_factual_orgpaed",
+        "category": "Faktenfrage Organisationspädagogik (Tintoré & Arbós 2013)",
+        "question": "Welche internen Barrieren des organisationalen Lernens identifizieren Tintoré & Arbós in ihrem Fragebogenmodell?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 4.0,
+        "error": null,
+        "answer": "## Kurzbefund\n\nDie konkrete Liste der im Fragebogenmodell von Tintoré & Arbós erfassten Barrieren lässt sich aus den bereitgestellten Textauszügen **nicht rekonstruieren**. Die Auszüge benennen zwar die *Existenz* von sieben Faktoren, „that facilitate or impede organisational learning\" [Tintoré & Arbós, 2013, p. 378], und sie benennen den *Zweck* des Instruments, Barrieren zu identifizieren [Tintoré & Arbós, 2013, p. 377] – die inhaltliche Ausdifferenzierung dieser Faktoren erfolgt jedoch ausschließlich in **Figure 1**, deren Inhalt in den Auszügen nicht wiedergegeben ist. Eine namentliche Auflistung der Barrieren wäre an dieser Stelle eine Halluzination und wird daher unterlassen.\n\n## Was die Auszüge belegbar hergeben\n\n**1. Struktur des Fragebogenmodells (Individual- vs. Organisationsebene)**\nDas Instrument ist zweigeteilt: einen Abschnitt zum individuellen Lernen und einen zum organisationalen Lernen. Im organisationalen Teil werden „a set of seven aspects or factors\" erfasst [Tintoré & Arbós, 2013, p. 378]. Diese sieben Faktoren sind der Ort, an dem Förder- und Hemmfaktoren des organisationalen Lernens verortet sind – ihre inhaltliche Benennung bleibt im Text jedoch der Abbildung vorbehalten.\n\n**2. Funktionale Bestimmung: Diagnose von Barrieren**\nDer Fragebogen ist explizit so konstruiert, dass er erfasst, „how developed the learning facilitators in a specific institution are and what kind of barriers exist\" [Tintoré & Arbós, 2013, p. 377]. Ziel ist die Bestimmung der Lernbereitschaft („disposition towards learning\") einer Institution sowie des Entwicklungsstands der Personen und der Organisation selbst [Tintoré & Arbós, 2013, p. 377]. Barrieren werden hier also als Gegenpol zu „learning facilitators\" konzipiert – nicht als eigenständige Typologie.\n\n**3. Dimensionen, in denen Barrieren verortet werden**\nAls besonders schwer zu evaluierende Bereiche der organisationalen Lernkapazität nennen die Autoren „teamwork, leadership or culture\" [Tintoré & Arbós, 2013, p. 377]. Dies sind die analytischen Dimensionen, in denen sich hemmende wie fördernde Faktoren manifestieren – eine Zuordnung konkreter Barrieren zu einzelnen dieser Dimensionen leisten die Auszüge jedoch nicht.\n\n**4. Intangible Faktoren als Messproblem**\nAls besondere Schwierigkeit wird die Messung immaterieller Faktoren benannt",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 378",
+            "p. 377"
+          ],
+          "citation_count": 2
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 378",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6864
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6766
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 377",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6745
+          }
+        ]
+      },
+      {
+        "question_id": "q3_factual_empirical",
+        "category": "Faktenfrage Empirische Hochschulforschung (Elbawab 2024)",
+        "question": "Wie beeinflussen die Prozesse 'Information Acquisition' und 'Knowledge Dissemination' die Hochschulleistung laut Elbawab (2024)?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 4.31,
+        "error": null,
+        "answer": "## Kurzfazit\n\nElbawab (2024) modelliert „Information Acquisition\" und „Knowledge Dissemination\" als **organisationale Lernprozesse**, die zwischen Lernkultur und Hochschulleistung vermitteln. Beide Prozesse stehen in einem positiven Zusammenhang zur Hochschulleistung, wobei die belastbarsten Belege aus einer Mediationsanalyse stammen (indirekte Effekte), nicht aus einer isolierten Direktmessung.\n\n---\n\n## 1. Information Acquisition\n\n**Wirkrichtung (theoretisch-konzeptionell):** Elbawab formuliert einen positiven Zusammenhang zwischen der Effizienz der Wissensaneignung und der Hochschulleistung: Je effizienter der Prozess der Informationsaneignung, desto besser die Leistung der Hochschule [Elbawab, 2024, S. 9]. Information Acquisition wird dabei definiert als „the process of identifying tendencies and problems, which leads to a better performance by the university\" [Elbawab, 2024, S. 9].\n\n**Zwei Quellen der Informationsaneignung:** Die Aneignung erfolgt aus zwei Quellen – intern (innerhalb der Hochschule) und extern (von anderen Hochschulen im Markt) –, und die Aneignung aus beiden Quellen verbessert die Hochschulleistung [Elbawab, 2024, S. 9; S. 11].\n\n**Empirischer Befund (Mediation):** Information Acquisition vermittelt den Zusammenhang zwischen organisationaler Lernkultur und Hochschulleistung statistisch signifikant:\n- Dialogue and Inquiry → Information Acquisition → Performance: IE = 0.1427, bootstrapped",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 11",
+            "p. 9"
+          ],
+          "citation_count": 2
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 9",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.7072
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6748
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 7",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6407
+          }
+        ]
+      },
+      {
+        "question_id": "q4_crosslingual_en_de",
+        "category": "Translinguale Frage EN -> DE (Russ et al. 2025)",
+        "question": "How did the leadership role and coordination between university management and ICT change after the COVID-19 pandemic according to Russ et al.?",
+        "language": "en",
+        "status_code": 200,
+        "latency_seconds": 4.2,
+        "error": null,
+        "answer": "The user asks: How did the leadership role and coordination between university management and ICT change after the COVID-19 pandemic according to Russ et al.? Answer strictly based on provided excerpts with exact citations.\n\nRelevant evidence: Auszug 1 (p. 332 abstract): In 2022 follow-up study; partial differences in collaboration and leadership. ICT focus changed from strategic considerations to operational and customer-oriented services. University management perceived primarily as a prioritizer, while ICT management increasingly focused on implementing strategies. SAFe introduced caused changes. Culture mixture of clan and hierarchy; innovation and risk-taking somewhat lost. Return to normality increased focus on structured processes; positive aspects like team cohesion and innovative spirit diminished. Sustainable cultural change requires perseverance; agile org structure must mature.\n\nAuszug 2 (pp. 332-333): 2020 baseline: upper/middle management outward-oriented defined and pursued business and innovation strategy; administration at lower levels focused on providing information systems and organizational infrastructure. This is pre-pandemic/2020 context, useful for contrast.\n\nAuszug 4 (p. 338): ICT management focus on strategy implementation and maintaining operations; seemingly in contradiction to university management role, quote from ICT management representative (quote not fully given).\n\nNeed to answer: leadership role and coordination changes. Cite [Russ et al., 2025, p. 332] and [Russ et al., 2025, pp. 332-333], [Russ et al., 2025, p. 338].\n\nNote: The abstract says \"University management was perceived primarily as a prioritizer, while information and communication technology management was increasingly focused on implementing strategies.\" So roles shifted: university management = prioritizer; ICT management = strategy implementation. In 2020, upper/middle management defined and pursued business/innovation strategy, lower-level administration provided IS infrastructure. After pandemic, ICT management focused on strategy implementation and operations.\n\nCoordination: partial differences in collaboration and leadership; return to normality increased focus on structured processes; clan/hierarchy culture; innovation/risk-taking lost; team cohesion and innovative spirit diminished. SAFe agile framework introduced caused changes.\n\nNeed to distinguish empirical findings (follow-up study 2022) from interpretation. The abstract reports findings. Also note the study concludes sustainable cultural change requires perseverance and agile structure must mature — that's authors' conclusion/interpretation.\n\nAlso transparent gaps: The corpus doesn't detail specific coordination mechanisms, nor the full quote on p. 338. We can note that the excerpt on p. 338 introduces a quote but the verbatim statement is not included in the provided chunk.\n\nLet me structure:\n\n1. Study design basis: 2020 case study, 2022 follow-up similar setup to identify changes [Russ et al., 2025, p. 332].\n2. Leadership role changes:\n   - University management perceived primarily as prioritizer.\n   - ICT management increasingly focused on implementing strategies (and maintaining operations) [p. 332; p. 338].\n   - Contrast to 2020: upper/middle management defined and pursued business and innovation strategy; lower-level administration focused on providing IS and organizational infrastructure [pp. 332-333].\n3. Coordination/collaboration:\n   - Partial differences in collaboration and leadership [p. 332].\n   - ICT focus shifted from strategic considerations to operational and customer-oriented services [p. 332].\n   - SAFe introduced during observation period caused changes [p. 332].\n   - Culture predominantly clan + hierarchy; innovation and risk-taking somewhat lost; return to normality increased focus on structured processes; team cohesion and innovative spirit diminished [p. 332].\n4. Authors' conclusion: sustainable cultural change requires greater perseverance; agile org structure must still mature [p. 332].\n5. Gap note: p. 338 quote incomplete; corpus doesn't specify detailed coordination mechanisms or quantitative extent.\n\nNeed exact citation format [Russ et al., 2025, p. 332]. Use \"S.\" for German? The instruction says e.g. [Russ et al., 2025, S. 333] or [Tintoré & Arbós, 2013, p. 378]. Since source is English abstract but German excerpts, I'll use p. consistently, or S. for German pages. I'll use p. for English answer. Maybe use \"S.\" when quoting German. I'll use p. to be consistent.\n\nLet me write concise academic answer.\n\nAlso mention that the follow-up was conducted in 2022 \"with a similar setup\" — methodology.\n\nBe careful: \"University management was perceived primarily as a prioritizer\" — this is a finding. \"ICT management was increasingly focused on implementing strategies\" — finding.\n\nAuszug 4: \"Im Fokus des Managements von ZHAW-ICT steht offenbar die Strategieumsetzung und die Aufrechterhaltung des Betriebs. Nur scheinbar im Widerspruch zur Rolle der Hochschulleitung, drückt es ein Vertreter des ICT-Managements wie folgt aus:\" — so ICT management focus = strategy implementation + maintaining operations; seemingly only in contradiction to university leadership's role. The quote itself is cut off. I should note that.\n\nAlso the tension: structural/governance (hierarchy, structured processes, prioritization) vs collaborative learning culture (team cohesion, innovation spirit diminished). Highlight DigiHochX cultural tensions per rule 7.\n\nLet me produce final answer with sections and citations. Keep moderate length.\n\nPotential nuance: \"The focus of information and communication technology has changed from strategic considerations to operational and customer-oriented services.\" This is a change after pandemic.\n\n\"University management was perceived primarily as a prioritizer, while information and communication technology management was increasingly focused on implementing strategies.\" So a division: university management prioritizes; ICT implements.\n\nIn 2020: upper/middle management (outward-oriented) defined and pursued business and innovation strategy; lower-level administration provided IS/organizational infrastructure. So after: university management as prioritizer, ICT management implementing strategies — a shift toward more operational, customer-oriented role for ICT, and university management taking prioritization function.\n\nCoordination: \"partial differences in collaboration and leadership\" — vague. \"Return to normality increased the focus on structured processes\" — coordination became more structured/hierarchical. \"Organizational culture predominantly described as a mixture of clan and hierarchy\" — clan = collaborative, hierarchy = structured. \"Innovation and risk-taking somewhat lost.\" \"Some positive aspects of pandemic period, such as team cohesion and innovative spirit, rather diminished.\"\n\nSAFe: \"the agile framework SAFe® introduced during the observation period caused changes.\" Not specified what changes in excerpt.\n\nAuthors' conclusion: \"sustainable cultural change requires greater perseverance, and adopting an agile organizational structure must still mature.\" This is interpretation/conclusion, not empirical finding.\n\nGap: The corpus does not contain the full verbatim quote on p. 338, nor detailed description of coordination mechanisms, nor the specific changes caused by SAFe. Also no data on teaching/research interfaces — but that's beyond question.\n\nI'll include a \"Research gap / corpus limitation\" note.\n\nWrite in academic English. Use exact quotes where useful: \"prioritizer\", \"implementing strategies\", \"operational and customer-oriented services\", \"mixture of clan",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "pp. 332-333",
+            "p. 338",
+            "p. 332"
+          ],
+          "citation_count": 3
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.7334
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6516
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.644
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 338",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6423
+          }
+        ]
+      },
+      {
+        "question_id": "q5_interdisciplinary",
+        "category": "Interdisziplinärer Vergleich (WI vs. OrgPäd)",
+        "question": "Inwiefern unterscheidet sich der Blickwinkel der Wirtschaftsinformatik (Business-IT-Alignment) von jenem der Organisationspädagogik (Lernkultur) bei der Transformation von Hochschulen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 4.32,
+        "error": null,
+        "answer": "The user asks: how does the perspective of business informatics (BITA) differ from organizational pedagogy (learning culture) in university transformation? I must answer strictly based on the four provided excerpts, with citations and page numbers.\n\nLet me analyze what's actually in the excerpts:\n\nAuszug 1 (Russ et al. 2025, p. 334): IT governance = effort to maximize business benefit of IT for the organization, in this case higher education institutions (citing Abdulrasool & Turnbull 2020; Scalabrin Bianchi et al. 2021). Various success criteria in IT governance definitions (Juiz & Gómez 2022). Common to them: implementation of appropriate, effective BITA efforts as frequent and important focus (Reinheimer & Robra-Bissantz 2014; Scalabrin Bianchi et al. 2021).\n\nAuszug 2 (Elbawab 2024, pp. 10-11): Practical implications. Research serves universities; implications adaptable to various faculties. Recommends: when universities work on organisational learning culture, it is followed by enhancing the organisational learning process. Subsequently, organisational performance and sustainable performance will be improved. Implications and countermeasures for different stakeholders.\n\nAuszug 3 (Russ et al. 2025, p. 332): Keywords: ICT, Hochschule, Organisationskultur, BITA, Agilität, COVID-19. Also \"Anregungen geben, um in Zukunft besser auf radikale Veränderungen vorbereitet zu sein und den Wertbeitrag der IT als Ganzes zu steigern.\" — so the aim is to be better prepared for radical changes and increase IT's value contribution.\n\nAuszug 4 (Elbawab 2024, p. 2): Universities face different types of change including digitalisation, sustainability, entrepreneurship, innovation (Leal Filho et al. 2018; Pocol et al. 2022); obligation to cope with change (Medne et al. 2022; James et al. 1993). One proven way to help universities adapt to change and increase performance is learning, more specifically organisational learning (Kezar & Holcombe 2019). Organisational learning practices and processes can facilitate change and enhance organisations (Argyris & Schön 1996; Fiol & Lyles 1985; Garvin 1993; Huber 1991).\n\nSo the answer: \n- WI perspective: structural/steering-oriented, IT governance, maximizing business value of IT, BITA as central success factor, keywords include agility, organizational culture, COVID-19 as trigger for radical change. Goal: increase IT value contribution, preparedness for radical change.\n- OP perspective: learning culture as mechanism, organizational learning process as mediator between learning culture and performance (organisational and sustainable performance). Goal: adapt to change, increase performance.\n\nDifferences:\n1. Starting point / trigger: WI frames transformation as radical change (COVID-19) requiring IT value contribution; OP frames change as multi-dimensional (digitalisation, sustainability, entrepreneurship, innovation) with obligation to cope.\n2. Steering logic: WI = governance/alignment, top-down structural steering, maximizing benefit; OP = learning culture → learning process → performance, i.e., a cultural-processual chain.\n3. Success criterion: WI = business benefit of IT / Wertbeitrag der IT; OP = organisational performance and sustainable performance.\n4. Culture: In Russ et al., \"Organisationskultur\" appears as a keyword alongside BITA and agility — so culture is thematized but the excerpt doesn't specify how. Careful: I should note that the excerpt only lists it as keyword; the substantive treatment isn't in the provided chunks. That's a gap in the document selection.\n5. Both share: change adaptation as the problem; both treat culture as relevant (Russ: keyword; Elbawab: learning culture as lever). But the direction of effect differs: WI sees BITA as the lever for IT value; OP sees learning culture as lever for learning process and performance.\n\nAlso note: Elbawab's claim is a recommendation/implication (\"The result of this investigation recommends...\") — a practical implication, not necessarily an empirically confirmed causal chain in the excerpt. Actually it says \"when universities work on organisational learning culture, it is followed by enhancing the organisational learning process. Subsequently, the organisational performance and sustainable performance will be improved.\" This is presented as result/recommendation. I should flag it as a practical implication derived from the study, and note the causal chain is stated as a recommendation.\n\nAlso: Russ et al. p. 334 cites secondary literature for IT governance definitions — so the BITA-as-central-focus claim is a synthesis of cited literature, not their own empirical finding.\n\nGaps: The excerpts do not contain a direct comparison; no excerpt addresses how BITA and learning culture interact. No empirical data on universities' learning culture from Russ et al. in these chunks. No definition of \"Lernkultur\" beyond \"organisational learning culture\". No evidence about conflicts/tensions between the two perspectives — that would be DigiHochX framing but not documented in these chunks.\n\nI should be careful about the \"Unterschied\" — the excerpts are thin. I should structure: (1) Gemeinsame Ausgangslage, (2) WI-Perspektive, (3) OP-Perspektive, (4) Systematischer Vergleich (Steuerungslogik, Erfolgskriterium, Kulturstatus, Veränderungsverständnis), (5) Grenzen der Belege / Forschungslücken.\n\nAlso note the difference between \"Organisationskultur\" (Russ keyword) and \"organisational learning culture\" (Elbawab) — a terminological distinction that shouldn't be overstated as a fundamental contradiction (per rule 7).\n\nLet me write in German, with citations. Use [Russ et al., 2025, S. 334] format.\n\nNote: Elbawab page numbers are \"pp. 10-11\" and \"p. 2\" — I'll cite [Elbawab, 2024, S. 2] and [Elbawab, 2024, S. 10-11].\n\nLet me be careful with the claim in Auszug 2: \"The result of this investigation recommends that when universities work on organisational learning culture, it is followed by enhancing the organisational learning process.\" — This is a recommendation/implication. I'll mark it as such.\n\nAlso Auszug 3: \"Anregungen geben, um in Zukunft besser auf radikale Veränderungen vorbereitet zu sein und den Wertbeitrag der IT als Ganzes zu steigern.\" — this is the stated aim of Russ et al.'s paper.\n\nI'll write a structured answer. Length: moderate-detailed, well organized. Use headers and maybe a comparison table.\n\nLet me draft.\n\nStructure:\n1. Vorbemerkung zur Beleglage\n2. Gemeinsame Problemstellung: Wandel\n3. Perspektive der WI (BITA)\n4. Perspektive der OP (Lernkultur)\n5. Systematischer Vergleich (table + prose)\n6.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 334",
+            "p. 2",
+            "p. 332",
+            "pp. 10-11"
+          ],
+          "citation_count": 4
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6325
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "pp. 10-11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6171
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6023
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 2",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6023
+          }
+        ]
+      },
+      {
+        "question_id": "q6_digihochx_tensions",
+        "category": "Kulturelle Tensions DigiHochX (Verwaltung / Forschung / Lehre)",
+        "question": "Welche Spannungen und Konflikte entstehen an den Schnittstellen zwischen Verwaltung, Forschung und Lehre durch Digitalisierungsmaßnahmen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 3.9,
+        "error": null,
+        "answer": "The user asks about tensions and conflicts at interfaces between administration, research, and teaching due to digitalization measures. I need to answer strictly based on provided excerpts.\n\nLet me analyze what's available:\n\nAuszug 1 (Russ et al., 2025, pp. 332-333): Describes ZHAW-ICT perception as controlled/structured but friendly, loyalty, mutual trust, respect. Cultural capability helped respond to COVID-19 needs. Business-IT alignment at different leadership levels was decisive. Upper/middle management defined business and innovation strategy (outward-oriented). Lower-level administration focused on providing information systems and organizational infrastructure.\n\nAuszug 2 (Russ et al., 2025, p. 341): Corona crisis forced rapid reaction, digitalization push. Leadership had to make decisions under time pressure, employees had to implement/adapt quickly. Left traces in collaboration between ICT and different departments as well as in organizational culture.\n\nAuszug 3 (Tintoré & Arbós, 2013, p. 376): Proposes instrument to assess organizational learning state in a university. Questionnaire around main factors influencing learning of university as a whole or any of its units (faculties, departments).\n\nAuszug 4 (Russ et al., 2025, p. 332): Keywords, and mention of giving suggestions to be better prepared for radical changes and increase value contribution of IT as a whole.\n\nSo the excerpts provide limited direct evidence of tensions/conflicts. Let me identify what can be said:\n\n1. Tension between control/structure and trust culture: ZHAW-ICT perceived as controlled and structured but also friendly with loyalty, mutual trust, respect [Russ et al., 2025, pp. 332-333]. This is a cultural tension/balance.\n\n2. Differentiation of roles/levels: upper/middle management outward-oriented defining strategy; lower-level administration focused on providing IS and infrastructure [Russ et al., 2025, pp. 332-333]. This suggests a division of labor that could be a tension point between strategic and operational levels.\n\n3. Time pressure and rapid decisions: leadership decisions under time pressure, employees implement/adapt quickly; left traces in collaboration between ICT and departments and in culture [Russ et al., 2025, p. 341]. This indicates tension/conflict potential at interfaces.\n\n4. Tintoré & Arbós: organizational learning instrument for universities, units (faculties, departments) [Tintoré & Arbós, 2013, p. 376]. This addresses learning at unit level but doesn't directly address tensions.\n\nI need to be careful: the excerpts don't explicitly discuss \"research and teaching\" interfaces in detail. The ZHAW-ICT is central administration/IT. Stakeholders include employees, lecturers (Dozierende), students. So there's mention of Dozierende and Studierende.\n\nI should note the gap: The documents don't explicitly analyze conflicts between Verwaltung, Forschung und Lehre. They focus on ICT-department collaboration and organizational culture. I should distinguish between what's evidenced and what's a gap.\n\nLet me structure the answer:\n\n- Note the limited direct evidence\n- Present what can be derived:\n  - Cultural tension: control/structure vs. trust/loyalty\n  - Role differentiation between management levels (strategy vs. infrastructure provision)\n  - Time pressure during COVID leading to rapid decisions and traces in collaboration\n  - Organizational learning at unit level (faculties/departments) as a framework\n- Explicitly state research gaps\n\nI must be careful with citations and page numbers. Auszug 1 is pp. 332-333, so I can cite [Russ et al., 2025, S. 332-333] or specific. Auszug 2 is p. 341. Auszug 3 is p. 376. Auszug 4 is p. 332.\n\nLet me write in German.\n\nI should note that the excerpts don't explicitly mention \"Forschung\" (research) as a distinct interface. The stakeholders mentioned are Mitarbeitende, Dozierende, Studierende. So teaching (Lehre) is represented via Dozierende/Studierende, but research is not explicitly addressed.\n\nLet me draft.\n\nKey points with citations:\n\n1. Grundsätzliche Spannung zwischen Kontrolle/Struktur und Vertrauenskultur:\n\"Die Befragten nahmen die ZHAW-ICT als kontrolliert und strukturiert, aber auch als freundliche Arbeitsstelle, geprägt durch Loyalität und gegenseitiges Vertrauen sowie Respekt für die Mitarbeitenden wahr.\" [Russ et al., 2025, S. 332-333]\n\n2. Rollendifferenzierung zwischen Führungsebenen:\n\"Die nach 'aussen orientierte' obere bzw. mittlere Managementebene definierte sowie verfolgte die Geschäfts- und Innovationsstrategie. Die Verwaltung auf den unteren Ebenen konzentrierte sich hingegen auf die Bereitstellung der Informationssysteme und der diesbezüglichen organisatorischen Infrastruktur.\" [Russ et al., 2025, S. 333]\n\nThis is a structural differentiation that can be a tension point (strategy vs. operations).\n\n3. Zeitdruck und schnelle Entscheidungen:\n\"von den Führungskräften unter Zeitdruck Entscheidungen getroffen und von den Mitarbeitenden rasch implementiert oder adaptiert werden. Dies hat auch vor Hochschulen nicht Halt gemacht und Spuren in der Zusammenarbeit der ICT mit den unterschiedlichen Fachbereichen sowie in der Unternehmenskultur hinterlassen.\" [Russ et al., 2025, S. 341]\n\nThis explicitly mentions traces in collaboration between ICT and departments - a tension at the interface.\n\n4. Organisationales Lernen auf Einheitenebene:\nTintoré & Arbós propose instrument for organizational learning at university or units (faculties, departments) [Tintoré & Arbós, 2013, S. 376]. This provides a framework but doesn't directly address conflicts.\n\nGaps:\n- No explicit analysis of conflicts between Verwaltung, Forschung und Lehre\n- \"Forschung\" as interface not explicitly addressed\n- The excerpts focus on ICT-department and its stakeholders\n\nI should also mention that the \"kulturelle Fähigkeit\" helped respond to needs [Russ et al., 2025, S. 333] - showing that culture can mitigate tensions.\n\nLet me also note the BITA concept: \"Abstimmung von Business und IT auf den verschiedenen Führungsebenen entscheidend\" [Russ et al., 2025, S. 333].\n\nNow, I need to be careful about the distinction between findings and interpretations. The excerpts are descriptive. I should frame my analysis as \"ableitbar\" or \"deutlich\" where appropriate.\n\nLet me write a well-structured answer.\n\nI'll structure:\n1. Vorbemerkung zur Evidenzlage\n2. Identifizierbare Spannungsfelder\n   a) Kontrolle/Struktur vs. Vertrauen\n   b) Strategische vs",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 332",
+            "p. 341",
+            "p. 376",
+            "pp. 332-333"
+          ],
+          "citation_count": 4
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6781
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 341",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6607
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 376",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6269
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.606
+          }
+        ]
+      },
+      {
+        "question_id": "q7_abstention",
+        "category": "Abstentions- / Anti-Halluzinationstest (Hors-Corpus)",
+        "question": "Welche genauen Fördersummen und Fristen wurden vom Land Niedersachsen für das Digitalpaket 2026 der Universität Hildesheim beschlossen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 3.77,
+        "error": null,
+        "answer": "## Antwort: Keine Belege in den bereitgestellten Dokumenten\n\n**Zu dieser Fragestellung enthalten die bereitgestellten Dokumente keine ausreichenden Belege.**\n\nDie Frage betrifft konkrete Förderbeträge und Fristen des Landes Niedersachsen im Rahmen eines „Digitalpakets 2026\" für die Universität Hildesheim. Keiner der vier vorliegenden Textauszüge enthält hierzu auch nur ansatzweise Informationen – weder Zahlen zu Fördersummen, noch Stichtage, noch eine Erwähnung des Landes Niedersachsen, des Digitalpakets oder der Universität Hildesheim als Fördermittelempfängerin.\n\n### Was die Auszüge stattdessen enthalten\n\nDie vier Chunks sind ausschließlich **paratextuelle Bestandteile** wissenschaftlicher Artikel (Metadaten, Danksagung, Literaturverzeichnis) und keine inhaltlichen Textpassagen:\n\n| Auszug | Inhalt | Beleg |\n|---|---|---|\n| 1 | Datenverfügbarkeitserklärung sowie Einreichungs- und Annahmedatum einer Studie | [Elbawab, 2024, S. 12] |\n| 2 | Danksagung und Open-Access-Förderhinweis der ZHAW | [Russ et al., 2025, S. 341–342] |\n| 3 | Publikationsangaben und Zitiervorschlag eines Zeitschriftenartikels | [Tintoré & Arbós, 2013, S. 375] |\n| 4 | Zwei Literaturangaben (Leal Filho et al. 2023; Leung 2011) | [Elbawab, 2024, S. 13] |\n\n### Der einzige förderbezogene Befund – und warum er nicht einschlägig ist\n\nDie einzige Stelle in den Auszügen, die überhaupt Fördermittel thematisiert, ist die Danksagung bei Russ et al.: Die Studie wurde durch den „Digital Futures Fund\" (DFF) von ZHAW digital gefördert, gerichtet an Mitarbeitende der ZHAW, die „eine neue Idee im Bereich der digitalen Transformation erarbeiten oder testen möchten\" [Russ et al., 2025, S. 341]. Dies betrifft jedoch\n\n- eine **schweizerische Hochschule** (ZHAW Zürich University of Applied Sciences) und nicht Niedersachsen,\n- einen **hochschulinternen Innovationsfonds** und kein Landesförderprogramm,\n- den Förderzeitraum der **COVID-19-Pandemie** und nicht das Jahr 2026.\n\nEine Übertragung dieser Angaben auf niedersächsische Förderstrukturen wäre eine unzulässige Verallgemeinerung und wird hier ausdrücklich nicht vorgenommen.\n\n### Einordnung der Lücke\n\nEs handelt sich um eine **Lücke in der aktuellen Dokumentenauswahl** (Fall a), nicht um eine in der Literatur nachgewiesene Forschungslücke (Fall b). Die bereitgestellten Auszüge sind thematisch auf organisationale Lernkultur und Performanz an Hochschulen [Elbawab, 2024], Business-IT-Alignment und Organisationskultur [Russ et al., 2025] sowie Organisational Learning Capacity an Universitäten [Tintoré & Arbós, 2013] ausgerichtet. Förderpolitik und Mittelzuweisung durch Landesministerien sind in diesem Korpus kein Gegenstand – und wären es wohl auch in den Volltexten nicht, da es sich um empirische Studien zu Lern- und Kulturfragen handelt.\n\n### Empfehlung für das weitere Vorgehen\n\nFür eine belastbare Beantwortung wäre eine **Primärquellenrecherche außerhalb des vorliegenden Korpus** erforderlich, insbesondere:\n\n- die offiziellen Förderrichtlinien und Bewilligungsbescheide des Niedersächsischen Ministeriums für Wissenschaft und Kultur,\n- das Niedersächsische Hochschulgesetz bzw. entsprechende Haushalts- und Zielvereinbarungen,\n- Mittelabfluss- und Verwendungsnachweise der Universität Hildesheim.\n\nSollten Sie entsprechende Dokumente in den Kontext einspielen, kann ich die Angaben quellengebunden auswerten. Bis dahin gilt: Eine Aussage zu Fördersummen und Fristen wäre an dieser Stelle spekulativ und unterbleibt daher.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 13",
+            "p. 12",
+            "p. 375"
+          ],
+          "citation_count": 3
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 12",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.5012
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.501
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 375",
+            "discipline": "Organisationspädagogik",
+            "score": 0.4667
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.4476
+          }
+        ]
+      }
+    ],
+    "deepseek-v4-flash-0731": [
+      {
+        "question_id": "q1_factual_wi",
+        "category": "Faktenfrage Wirtschaftsinformatik (Russ et al. 2025)",
+        "question": "Welche Merkmale kennzeichnen die ICT-Organisation der ZHAW und welche Rolle spielte das agile Framework SAFe während der COVID-19-Pandemie?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 6.01,
+        "error": null,
+        "answer": "Basierend auf den bereitgestellten Textauszügen lässt sich die Forschungsfrage wie folgt beantworten:\n\n**1. Merkmale der ICT-Organisation der ZHAW:**\n\nDie ZHAW-ICT ist eine Organisationseinheit mit rund 100 Mitarbeitenden, die an drei Campus-Standorten über hundert IT-Dienstleistungen betreibt und betreut [Russ et al., 2025, S. 334]. Ihre strategische Ausrichtung ist durch die IT-Strategie 2029 definiert, die mit dem öffentlichen Leistungsauftrag abgestimmt ist. Die Hauptziele umfassen die Unterstützung des digitalen Transformationsprozesses der ZHAW, die Stärkung der Produktivität der Endnutzer sowie die Förderung von digitaler Bildung, technologiegetriebener Forschung und Entwicklung [Russ et al., 2025, S. 334].\n\n**2. Organisationskultur der ZHAW-ICT:**\n\nDie Organisationskultur wird unterschiedlich und zum Teil widersprüchlich wahrgenommen. Von außen wird die ZHAW-ICT als sehr strukturiert und kontrolliert eingeschätzt, während die internen Mitarbeitenden ein differenzierteres Bild haben [Russ et al., 2025, S. 339]. Es existieren zwei kulturelle Pole nebeneinander:\n- Einerseits besteht in den ICT-Teams eine **Clan-Kultur** bzw. die \"Familie\" [Russ et al., 2025, S. 339].\n- Andererseits ist die **Hierarchie mit Kontrolle und Struktur** weiterhin stark ausgeprägt, etwa bei Planung, Arbeitsverteilung und Priorisierung nach Business Value [Russ et al., 2025, S. 339].\n\n**3. Rolle des agilen Frameworks SAFe während der COVID-19-Pandemie:**\n\nDie Textauszüge belegen, dass die ZHAW-ICT agile und schlanke IT-Prinzipien nach Häusling (2020) einsetzt [Russ et al., 2025, S. 334]. Durch das agile Framework stehen **Kundennutzen, Kundenanforderungen und Kundenzufriedenheit** im Vordergrund [Russ et al., 2025, S. 339].\n\n**Wichtige Einschränkung:** In den vorliegenden Textauszügen wird das spezifische Framework **SAFe (Scaled Agile Framework)** nicht namentlich erwähnt. Die Dokumente sprechen allgemein von einem \"agilen Framework\" [Russ et al., 2025, S. 339] und von \"agilen und schlanken IT-Prinzipien\" [Russ et al., 2025, S. 334], ohne eine konkrete Framework-Bezeichnung zu nennen. Eine direkte Aussage zur spezifischen Rolle von SAFe während der Pandemie kann daher auf Basis dieser Auszüge nicht getroffen werden.\n\n**4. Veränderungen nach der Pandemie:**\n\nDie Auszüge dokumentieren einen kulturellen Wandel: Während vor zwei Jahren (also während der Pandemie-Hauptphase) häufiger von der Clan-Kultur bzw. der \"großen Familie\" berichtet wurde, wird diese heute seltener erwähnt [Russ et al., 2025, S. 339]. Dies deutet auf eine Verschiebung hin zu mehr Struktur und Kontrolle hin.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 333"
+          ],
+          "citation_count": 1
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6996
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 339",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6911
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.659
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6554
+          }
+        ]
+      },
+      {
+        "question_id": "q2_factual_orgpaed",
+        "category": "Faktenfrage Organisationspädagogik (Tintoré & Arbós 2013)",
+        "question": "Welche internen Barrieren des organisationalen Lernens identifizieren Tintoré & Arbós in ihrem Fragebogenmodell?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 6.37,
+        "error": null,
+        "answer": "Basierend auf den bereitgestellten Textauszügen kann die Forschungsfrage nach den **internen Barrieren des organisationalen Lernens** im Fragebogenmodell von Tintoré & Arbós **nicht abschließend beantwortet werden**.\n\nDie vorliegenden Auszüge beschreiben zwar die **Zielsetzung** des Fragebogens, Barrieren zu identifizieren, nennen aber **keine konkreten internen Barrieren**.\n\n**Was die Texte belegen:**\n\n1. **Ziel des Fragebogens:** Der Fragebogen wurde entwickelt, um zu identifizieren, \"how developed the learning facilitators in a specific institution are and what kind of barriers exist\" [Tintoré & Arbós, 2013, p. 377]. Das Modell zielt also explizit darauf ab, sowohl fördernde Faktoren als auch Barrieren zu erfassen.\n\n2. **Messbare Faktoren:** Der Fragebogen umfasst im organisationalen Lernbereich \"a set of seven aspects or factors\" [Tintoré & Arbós, 2013, p. 378], wobei die konkreten Faktoren in Abbildung 1 dargestellt sind, die im Textauszug nicht enthalten ist.\n\n3. **Schwierigkeit der Messung:** Die Autoren weisen darauf hin, dass die Bewertung des Entwicklungsstands der organisationalen Lernfähigkeit komplex ist, insbesondere bei \"intangible factors such as commitment, reliability or trust among the members of an institution\" [Tintoré & Arbós, 2013, p. 377].\n\n**Forschungslücke in der Dokumentenauswahl:**\n\nIn den bereitgestellten Textauszügen werden **keine spezifischen internen Barrieren** (wie z. B. mangelndes Vertrauen, fehlende Führungsunterstützung oder Widerstände gegen Veränderung) namentlich genannt. Die konkreten Barrieren sind offenbar in der Abbildung 1 bzw. in den nicht übergebenen Teilen des Fragebogens enthalten.\n\n**Hinweis zur Unterscheidung:** Die genannten Faktoren \"commitment, reliability or trust\" [Tintoré & Arbós, 2013, p. 377] werden als **Messgegenstände** (intangible Faktoren) beschrieben, nicht explizit als Barrieren. Ob diese Faktoren als Barrieren operationalisiert werden, lässt sich aus den vorliegenden Auszügen nicht ableiten.\n\n**Empfehlung:** Für eine vollständige Beantwortung der Forschungsfrage wäre der Zugriff auf die vollständige Abbildung 1 (Faktorenmodell) sowie die konkreten Fragebogenitems erforderlich, die in den bereitgestellten Dokumenten nicht enthalten sind.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 378",
+            "p. 377"
+          ],
+          "citation_count": 2
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 378",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6864
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6766
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 377",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6745
+          }
+        ]
+      },
+      {
+        "question_id": "q3_factual_empirical",
+        "category": "Faktenfrage Empirische Hochschulforschung (Elbawab 2024)",
+        "question": "Wie beeinflussen die Prozesse 'Information Acquisition' und 'Knowledge Dissemination' die Hochschulleistung laut Elbawab (2024)?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 9.89,
+        "error": null,
+        "answer": "Basierend auf den bereitgestellten Textauszügen von Elbawab (2024) lässt sich die Forschungsfrage wie folgt beantworten:\n\n**1. Direkter Zusammenhang zwischen Informationsakquise und Hochschulleistung:**\nLaut Elbawab (2024) gilt: Je effizienter der Prozess der Wissensakquise (Information Acquisition) ist, desto besser ist die Leistung der Universität. Die Informationsakquise wird dabei als Prozess der Identifizierung von Tendenzen und Problemen definiert, der zu einer besseren Leistung der Universität führt [Elbawab, 2024, p. 9].\n\n**2. Zwei Quellen der Informationsakquise:**\nDie Informationsakquise erfolgt aus zwei Quellen, die beide die Hochschulleistung verbessern:\n- **Intern:** Innerhalb der Universität (z. B. Studierendenzufriedenheit, Feedback zum Curriculum, erfolgreiche Lehrmethoden, frühere Erfahrungen der Universität) [Elbawab, 2024, p. 11].\n- **Extern:** Von anderen Universitäten im Markt (z. B. Wettbewerber wie internationale Universitäten, Arbeitsmarkt, Arbeitgeber, politische Entscheidungsträger) [Elbawab, 2024, p. 9; p. 11].\n\n**3. Formelle und informelle Quellen der Informationsakquise:**\nDie Informationsakquise kann formell über jährlich veröffentlichte Berichte erfolgen (z. B. öffentliche Leistungsberichte von Universitäten, universitäre Rankings, Umfang der Kooperationen und Fördermittel) sowie informell, etwa durch die Bewertung der Leistung der Universität in sozialen Medien [Elbawab, 2024, p. 11].\n\n**4. Indirekter Effekt über die Lernkultur (Mediation):**\nDie organisationale Lernkultur (insbesondere Dialog und Inquiry sowie System Connection) hat einen **indirekten Effekt** auf die Hochschulleistung, der durch die organisationalen Lernprozesse (Informationsakquise und Wissensdissemination) mediiert wird [Elbawab, 2024, p. 7]. Konkret:\n- Dialog und Inquiry wirken indirekt auf die Hochschulleistung, mediiert durch Informationsakquise (IE=0.1427; statistisch signifikant, 95%-KI [0.0482, 0.2423]) [Elbawab, 2024, p. 7].\n- System Connection wirkt indirekt auf die Hochschulleistung, mediiert durch Informationsakquise (IE=0.1800; statistisch signifikant, 95%-KI [0.1104, 0.2548]) [Elbawab, 2024, p. 7].\n\n**5. Indirekter Effekt über Wissensdissemination:**\nAuch die Wissensdissemination (Knowledge Dissemination) fungiert als Mediator:\n- Dialog und Inquiry wirken indirekt auf die Hochschulleistung, mediiert durch Wissensdissemination (IE=0.2038; statistisch signifikant, 95%-KI [0.1306, 0.2865]) [Elbawab, 2024, p. 7].\n- System Connection wirkt indirekt auf die Hochschulleistung, mediiert durch Wissensdissemination (IE=0.1970; statistisch signifikant, 95%-KI [0.1351, 0.2638]) [Elbawab, 2024, p. 7].\n\n**Zusammenfassung:**\nDie Prozesse 'Information Acquisition' und 'Knowledge Dissemination' beeinflussen die Hochschulleistung positiv, wobei sie als Mediatoren zwischen der organisationalen Lernkultur (Dialog/Inquiry und System Connection) und der Hochschulleistung wirken. Die Informationsakquise aus internen und externen Quellen sowie formellen und informellen Kanälen ist dabei zentral für die Leistungssteigerung [Elbawab, 2024, p. 7; p. 9; p. 11].",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 11",
+            "p. 9",
+            "p. 7"
+          ],
+          "citation_count": 3
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 9",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.7072
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6748
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 7",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6407
+          }
+        ]
+      },
+      {
+        "question_id": "q4_crosslingual_en_de",
+        "category": "Translinguale Frage EN -> DE (Russ et al. 2025)",
+        "question": "How did the leadership role and coordination between university management and ICT change after the COVID-19 pandemic according to Russ et al.?",
+        "language": "en",
+        "status_code": 200,
+        "latency_seconds": 3.41,
+        "error": null,
+        "answer": "Based exclusively on the provided source excerpts, the leadership role and coordination between university management and ICT changed after the COVID-19 pandemic in the following ways:\n\n1. **University Management as Prioritizer:** The university management was perceived primarily as a \"prioritizer\" [Russ et al., 2025, p. 332].\n\n2. **ICT Management Focus Shift:** The focus of ICT management shifted from strategic considerations to operational and customer-oriented services, and ICT management was increasingly focused on implementing strategies [Russ et al., 2025, p. 332].\n\n3. **Strategic vs. Operational Division:** The source notes that the \"nach 'aussen orientierte' obere bzw. mittlere Managementebene definierte sowie verfolgte die Geschäfts- und Innovationsstrategie,\" while the administration on lower levels focused on providing information systems and the related organizational infrastructure [Russ et al., 2025, pp. 332-333]. This division of labor appears to have persisted or been reinforced.\n\n4. **ICT Management's Self-Perception:** A representative of ICT management expressed that the focus of ZHAW-ICT management is on strategy implementation and maintaining operations, which is only seemingly in contradiction to the role of university leadership [Russ et al., 2025, p. 338].\n\nThe provided documents do not contain sufficient evidence to describe further specific changes in coordination mechanisms beyond these points, nor do they detail the exact nature of the \"partial differences in collaboration and leadership\" mentioned in the abstract [Russ et al., 2025, p. 332].",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "pp. 332-333",
+            "p. 338",
+            "p. 332"
+          ],
+          "citation_count": 3
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.7334
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6516
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.644
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 338",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6423
+          }
+        ]
+      },
+      {
+        "question_id": "q5_interdisciplinary",
+        "category": "Interdisziplinärer Vergleich (WI vs. OrgPäd)",
+        "question": "Inwiefern unterscheidet sich der Blickwinkel der Wirtschaftsinformatik (Business-IT-Alignment) von jenem der Organisationspädagogik (Lernkultur) bei der Transformation von Hochschulen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 8.92,
+        "error": null,
+        "answer": "Basierend auf den vier bereitgestellten Textauszügen lässt sich die Forschungsfrage nur in Ansätzen beantworten, da die Dokumente unterschiedliche Schwerpunkte setzen und nicht direkt miteinander in Dialog treten. Ich beantworte die Frage daher streng quellenbasiert und weise auf die Grenzen der Evidenz hin.\n\n**1. Der Blickwinkel der Wirtschaftsinformatik: Business-IT-Alignment (BITA) als Steuerungs- und Nutzenmaximierungslogik**\n\nAus der Perspektive der Wirtschaftsinformatik wird die digitale Transformation von Hochschulen primär als Frage der **IT-Governance** und des **Business-IT-Alignments (BITA)** gerahmt. Der Fokus liegt auf der Maximierung des geschäftlichen Nutzens der IT für die Organisation: \"Unter IT-Governance wird der übergreifende Versuch und die Bemühung verstanden, den geschäftlichen Nutzen der IT für die Organisation, in diesem Fall die Hochschuleinrichtungen, zu maximieren\" [Russ et al., 2025, S. 334]. Der zentrale Hebel ist dabei die Umsetzung \"angemessener, effektiver Business-IT-Alignment-(BITA)-Anstrengungen\" [Russ et al., 2025, S. 334]. Das Ziel ist es, \"den Wertbeitrag der IT als Ganzes zu steigern\" [Russ et al., 2025, S. 332]. Dieser Ansatz ist also primär **strukturell-strategisch** und auf die Abstimmung von IT- und Geschäftsstrategie ausgerichtet.\n\n**2. Der Blickwinkel der Organisationspädagogik: Organisationales Lernen als Kultur- und Entwicklungslogik**\n\nDer organisationspädagogische Blickwinkel, wie er bei Elbawab (2024) skizziert wird, setzt einen anderen Schwerpunkt: die **Lernkultur** und den **organisationalen Lernprozess** als Treiber für Veränderung und Leistungsfähigkeit. Universitäten stehen vor vielfältigen Veränderungen (Digitalisierung, Nachhaltigkeit, Innovation) und müssen diesen begegnen [Elbawab, 2024, S. 2]. Als bewährter Weg zur Anpassung an Veränderungen und zur Leistungssteigerung wird hier das **organisationale Lernen** genannt: \"One of the proven ways that help universities adapt to change and increase their performance is learning, more specifically, organisational learning\" [Elbawab, 2024, S. 2]. Die Logik ist hier **prozess- und mitarbeiterorientiert**: Die Arbeit an der organisationalen Lernkultur führt zur Verbesserung des Lernprozesses und damit zur Verbesserung der (nachhaltigen) Leistung: \"when universities work on organisational learning culture, it is followed by enhancing the organisational learning process. Subsequently, the organisational performance and sustainable performance will be improved\" [Elbawab, 2024, S. 10-11].\n\n**3. Synthese und Differenz der Blickwinkel**\n\nAuf Basis der vorliegenden Auszüge lässt sich folgende Unterscheidung ableiten:\n\n- **Zielgröße:** Die Wirtschaftsinformatik zielt auf die **Maximierung des IT-Nutzens** und die **Steigerung des Wertbeitrags der IT** [Russ et al., 2025, S. 334, S. 332]. Die Organisationspädagogik zielt auf die **Verbesserung der organisationalen und nachhaltigen Performance** durch Lernen [Elbawab, 2024, S. 10-11].\n- **Steuerungsmechanismus:** Die Wirtschaftsinformatik setzt auf **IT-Governance und BITA-Anstrengungen** als formalen Abstimmungsprozess [Russ et al., 2025, S. 334]. Die Organisationspädagogik setzt auf die **Förderung einer Lernkultur** und die **Verbesserung des Lernprozesses** als kulturelle und prozessuale Grundlage [Elbawab, 2024, S. 10-11].\n\n**4. Hinweis auf Evidenzlücken**\n\nDie vorliegenden Auszüge erlauben **keine direkte vergleichende Analyse** der beiden Perspektiven, da sie nicht aufeinander Bezug nehmen. Insbesondere gilt:\n\n- Die Auszüge von Russ et al. (2025) fokussieren auf BITA und IT-Governance, ohne den Begriff der Lernkultur oder des organisationalen Lernens zu thematisieren.\n- Der Auszug von Elbawab (2024) fokussiert auf Lernkultur und Performance, ohne auf IT-Governance oder BITA einzugehen.\n\nEine **empirisch gesicherte Aussage** über die konkrete Wechselwirkung oder mögliche Spannungsfelder zwischen BITA-Ansätzen und Lernkultur-Ansätzen an Hochschulen ist auf Basis dieser vier Textauszüge **nicht möglich**. Die Auszüge deuten jedoch auf unterschiedliche Logiken hin: eine technologisch-strukturelle (BITA) und eine kulturell-prozessuale (Lernkultur). Eine vertiefte Analyse der Schnittstellen und potenziellen Konflikte zwischen diesen Logiken wäre eine sinnvolle Forschungsfrage für die DigiHochX-Agenda, kann aber mit dem vorliegenden Material nicht beantwortet werden.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 2",
+            "p. 332",
+            "pp. 10-11"
+          ],
+          "citation_count": 3
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6325
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "pp. 10-11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6171
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6023
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 2",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6023
+          }
+        ]
+      },
+      {
+        "question_id": "q6_digihochx_tensions",
+        "category": "Kulturelle Tensions DigiHochX (Verwaltung / Forschung / Lehre)",
+        "question": "Welche Spannungen und Konflikte entstehen an den Schnittstellen zwischen Verwaltung, Forschung und Lehre durch Digitalisierungsmaßnahmen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 6.99,
+        "error": null,
+        "answer": "Basierend auf den vier bereitgestellten Textauszügen lässt sich die Forschungsfrage nach Spannungen und Konflikten an den Schnittstellen zwischen Verwaltung, Forschung und Lehre durch Digitalisierungsmaßnahmen nur teilweise und in spezifischer Weise beantworten. Die Dokumente liefern hierzu folgende relevante Befunde:\n\n**1. Spannungsfeld zwischen strategischer Führung und operativer Verwaltung (Business-IT-Alignment):**\nDie Studie von Russ et al. (2025) zeigt ein klares Spannungsfeld innerhalb der Hochschule zwischen den Führungsebenen und der Verwaltung auf. Die \"nach aussen orientierte\" obere bzw. mittlere Managementebene definierte und verfolgte die Geschäfts- und Innovationsstrategie, während sich die Verwaltung auf den unteren Ebenen auf die Bereitstellung der Informationssysteme und der organisatorischen Infrastruktur konzentrierte [Russ et al., 2025, S. 333]. Diese Arbeitsteilung impliziert ein potenzielles Konfliktfeld zwischen strategischen Digitalisierungszielen (Forschung/Lehre) und der operativen Umsetzungskapazität der Verwaltung.\n\n**2. Zeitdruck und Entscheidungsdruck als Konfliktquelle:**\nDie Corona-Krise zwang Organisationen, in kürzester Zeit auf neue Rahmenbedingungen zu reagieren. Führungskräfte mussten unter Zeitdruck Entscheidungen treffen, die von Mitarbeitenden rasch implementiert oder adaptiert werden mussten [Russ et al., 2025, S. 341]. Dieses Szenario beschreibt ein Spannungsfeld zwischen der Notwendigkeit schneller strategischer Entscheidungen (typisch für die Leitungsebene) und der Fähigkeit der operativen Ebene (Verwaltung, aber auch Lehre), diese Veränderungen zeitnah umzusetzen.\n\n**3. Kulturelle Fähigkeiten als Puffer für Spannungen:**\nInteressanterweise zeigt die Studie, dass die wahrgenommene Organisationskultur der ZHAW-ICT – geprägt durch Loyalität, gegenseitiges Vertrauen und Respekt – half, auf die dringenden Bedürfnisse der Organisation während des COVID-19-Lockdowns zu reagieren [Russ et al., 2025, S. 333]. Dies deutet darauf hin, dass kulturelle Faktoren bestehende Spannungen zwischen den Bereichen abfedern können, ohne sie jedoch vollständig aufzulösen.\n\n**4. Fehlende empirische Evidenz zu spezifischen Konflikten zwischen Forschung und Lehre:**\nDie vorliegenden Textauszüge enthalten **keine ausreichenden Belege** für konkrete, empirisch untersuchte Konflikte speziell zwischen den Bereichen Forschung und Lehre im Kontext der Digitalisierung. Die Dokumente fokussieren primär auf die Zusammenarbeit zwischen der ICT-Abteilung und den Fachbereichen [Russ et al., 2025, S. 341] sowie auf das allgemeine organisationale Lernen von Universitäten [Tintoré & Arbós, 2013, S. 376].\n\n**5. Methodischer Ansatz zur Erfassung von Spannungen:**\nTintoré & Arbós (2013) schlagen ein Instrument (Fragebogen) vor, um den Zustand des organisationalen Lernens an Universitäten zu erfassen, um auf Basis der Ergebnisse Verbesserungen vorzunehmen [Tintoré & Arbós, 2013, S. 376]. Dies stellt einen methodischen Zugang dar, um Spannungsfelder systematisch zu identifizieren, auch wenn die Autoren in diesem Auszug keine spezifischen Konflikte zwischen Verwaltung, Forschung und Lehre benennen.\n\n**Zusammenfassende Einordnung:**\nDie Dokumente belegen ein Spannungsfeld zwischen strategischer Steuerung (Management) und operativer Umsetzung (Verwaltung) im Digitalisierungsprozess. Konkrete, empirisch belegte Konflikte zwischen Forschung und Lehre werden in den vorliegenden Auszügen nicht untersucht. Hier liegt eine Lücke in der aktuellen Dokumentenauswahl des Chatbots.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [],
+          "citation_count": 0
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6781
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 341",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6607
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 376",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6269
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.606
+          }
+        ]
+      },
+      {
+        "question_id": "q7_abstention",
+        "category": "Abstentions- / Anti-Halluzinationstest (Hors-Corpus)",
+        "question": "Welche genauen Fördersummen und Fristen wurden vom Land Niedersachsen für das Digitalpaket 2026 der Universität Hildesheim beschlossen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 3.71,
+        "error": null,
+        "answer": "Zu dieser Fragestellung enthalten die bereitgestellten Dokumente keine ausreichenden Belege. Die vier Textauszüge behandeln ausschließlich:\n\n1. **Methodische Hinweise zur Datenverfügbarkeit** einer Studie zur Lernkultur [Elbawab, 2024, p. 12]\n2. **Förderhinweise des \"Digital Futures Fund\" (DFF) der ZHAW** in der Schweiz – nicht des Landes Niedersachsen [Russ et al., 2025, pp. 341-342]\n3. **Publikationsmetadaten** eines Artikels zur organisationalen Lernfähigkeit von Universitäten [Tintoré & Arbós, 2013, p. 375]\n4. **Literaturverzeichniseinträge** zu UN-Nachhaltigkeitszielen und Likert-Skalen [Elbawab, 2024, p. 13]\n\n**Weder das \"Digitalpaket 2026\" noch die Universität Hildesheim noch das Land Niedersachsen** werden in den vorliegenden Textauszügen erwähnt. Es handelt sich hierbei um eine Lücke in der aktuellen Dokumentenauswahl des Chatbots.\n\nDie bereitgestellten Dokumente enthalten stattdessen relevante Nachbargebiete, die für Ihre Forschungsagenda nützlich sein könnten:\n- **Organisationale Lernfähigkeit an Universitäten** [Tintoré & Arbós, 2013, p. 375]\n- **Zusammenhang von Lernkultur und Leistung** [Elbawab, 2024, p. 12]\n- **Business-IT-Alignment und Organisationskultur im Kontext digitaler Transformation** [Russ et al., 2025, pp. 341-342]\n\nFür Ihre konkrete Frage zu Fördermitteln des Landes Niedersachsen empfehle ich, die offiziellen Bekanntmachungen des Niedersächsischen Ministeriums für Wissenschaft und Kultur oder die Hochschulkommunikation der Universität Hildesheim zu konsultieren.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 13",
+            "p. 12",
+            "pp. 341-342",
+            "p. 375"
+          ],
+          "citation_count": 4
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 12",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.5012
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.501
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 375",
+            "discipline": "Organisationspädagogik",
+            "score": 0.4667
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.4476
+          }
+        ]
+      }
+    ],
+    "mistral-large-4-1t-a52b": [
+      {
+        "question_id": "q1_factual_wi",
+        "category": "Faktenfrage Wirtschaftsinformatik (Russ et al. 2025)",
+        "question": "Welche Merkmale kennzeichnen die ICT-Organisation der ZHAW und welche Rolle spielte das agile Framework SAFe während der COVID-19-Pandemie?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 13.4,
+        "error": null,
+        "answer": "Der Nutzer möchte eine Antwort auf eine spezifische Forschungsfrage basierend auf den bereitgestellten Textauszügen. Die Forschungsfrage lautet: \"Welche Merkmale kennzeichnen die ICT-Organisation der ZHAW und welche Rolle spielte das agile Framework SAFe während der COVID-19-Pandemie?\"\n\nIch muss streng auf Basis der vier bereitgestellten Auszüge antworten:\n\n1. Auszug 1 (p. 333): Forschungsfragen des CIRCLE-Projekts zu Organisationskultur und strategischer Ausrichtung der ZHAW/ZHAW-ICT, Veränderungen nach COVID-19.\n2. Auszug 2 (p. 339): Agile Framework steht für Kundennutzen, Kundenanforderungen, Kundenzufriedenheit. Organisationskultur wird unterschiedlich wahrgenommen: von außen strukturiert/kontrolliert, intern differenzierter. Clan/\"Familie\" existiert noch, aber Hierarchie mit Kontrolle und Struktur ist stärker geworden (Planung, Arbeitsverteilung, Priorisierung nach Business Value). Unterschied zur Pandemie: vor zwei Jahren häufiger Clan-Kultur/\"große Familie\".\n3. Auszug 3 (p. 334): ZHAW-ICT hat rund 100 Mitarbeitende, betreibt über 100 IT-Dienstleistungen an drei Campus-Standorten. IT-Strategie 2029 abgestimmt mit öffentlichem Leistungsauftrag (Ausbildung, Weiterbildung, angewandte Forschung, Beratung). Hauptziele: Unterstützung digitaler Transformation, Stärkung Produktivität der Endnutzer, Förderung digitaler Bildung, technologiegetriebener F&E, Einsatz agiler und schlanker IT-Prinzipien nach Häusling (2020).\n4. Auszug 4 (pp. 341-342): Danksagung/Funding durch Digital Futures Fund (DFF) von ZHAW digital, COVID-19-Aufruf.\n\nWichtige Beobachtungen:\n- SAFe wird in den bereitgestellten Auszügen NICHT explizit erwähnt! Es wird von \"agilem Framework\" (Auszug 2) und \"agilen und schlanken IT-Prinzipien\" (Auszug 3) gesprochen, aber nicht spezifisch SAFe.\n- Die Frage nach der Rolle von SAFe während COVID-19 kann daher NICHT auf Basis der bereitgestellten Dokumente beantwortet werden, da SAFe nicht explizit genannt wird.\n- Ich muss gemäß Regel 6 (Abstention) klar sagen, dass zu SAFe keine ausreichenden Belege vorliegen.\n- Die Merkmale der ICT-Organisation können jedoch aus den Auszügen 2 und 3 abgeleitet werden.\n\nStruktur der Antwort:\n1. Merkmale der ZHAW-ICT-Organisation:\n   - Größe und Scope: ~100 Mitarbeitende, >100 IT-Dienstleistungen, 3 Campus-Standorte [Russ et al., 2025, S. 334]\n   - Strategische Ausrichtung: IT-Strategie 2029, Abstimmung mit öffentlichem Leistungsauftrag (4 Bereiche: Ausbildung, Weiterbildung, angewandte Forschung, Beratung) [Russ et al., 2025, S. 334]\n   - Ziele: Unterstützung digitaler Transformation, Stärkung Produktivität Endnutzer, Förderung digitaler Bildung/F&E, Einsatz agiler/schlanker IT-Prinzipien [Russ et al., 2025, S. 334]\n   - Organisationskultur: widersprüchlich wahrgenommen - von außen strukturiert/kontrolliert, intern differenziert; Clan/\"Familie\" vs. Hierarchie mit Kontrolle/Struktur (Planung, Arbeitsverteilung, Priorisierung nach Business Value) [Russ et al., 2025, S. 339]\n   - Veränderung nach Pandemie: Hierarchie/Kontrolle stärker geworden, während vor zwei Jahren (während Pandemie) häufiger Clan-Kultur/\"große Familie\" berichtet wurde [Russ et al., 2025, S. 339]\n   - Agiles Framework: Kundennutzen, Kundenanforderungen, Kundenzufriedenheit im Vordergrund [Russ et al., 2025, S. 339]\n\n2. Rolle von SAFe während COVID-19:\n   - Hier muss ich abstinent sein: Die bereitgestellten Dokumente erwähnen SAFe nicht explizit. Es wird nur allgemein von \"agilem Framework\" (S. 339) und \"agilen und schlanken IT-Prinzipien\" (S. 334) gesprochen.\n   - Die Studie wurde durch den COVID-19-Aufruf des Digital Futures Fund gefördert [Russ et al., 2025, S. 341-342], was den zeitlichen Kontext der Pandemie bestätigt, aber nicht die spezifische Rolle von SAFe.\n   - Daher: \"Zu der spezifischen Rolle des agilen Frameworks SAFe während der COVID-19-Pandemie enthalten die bereitgestellten Dokumente keine ausreichenden Belege.\"\n\nWichtig: Ich darf nicht halluzinieren, dass SAFe in den Texten vorkommt. Es steht dort nur \"agiles Framework\" (ohne SAFe zu nennen).\n\nAuch wichtig: Die Forschungsfrage im Auszug 1 (p. 333) fragt nach Veränderungen nach der Hauptperiode der COVID-19-Pandemie, was impliziert, dass die Studie diesen Zeitraum untersucht.\n\nFormale Anforderungen:\n- Deutsch\n- Zitationsformat: [Russ et al., 2025, S. XXX]\n- Unterscheidung zwischen Befunden und Interpretationen\n- Klare Trennung: Was steht in den Texten vs. was fehlt (SAFe)\n\nLass mich die Seitenzahlen nochmal prüfen:\n- Auszug 1: p. 333\n- Auszug 2: p. 339\n- Auszug 3: p. 334\n- Auszug 4: pp. 341-342\n\nDie Antwort sollte strukturiert sein:\n1. Merkmale der ICT-Organisation (mit Belegen)\n2. Rolle agiler Frameworks allgemein (was steht da)\n3. Explizite Aussage zu SAFe (fehlt in den Dokumenten)\n\nOder ich beantworte die Frage direkt und sage beim SAFe-Teil, dass dies nicht beantwortet werden kann.\n\nDer Nutzer fragt explizit nach SAFe. Da SAFe in den Texten nicht vorkommt, muss ich das klar kommunizieren.\n\nFormulierung für SAFe-Teil:\n\"Zu der spezifischen Rolle des agilen Frameworks SAFe (Scaled Agile Framework) während der COVID-19-Pandemie enthalten die bereitgestellten Dokumente keine ausreichenden Belege. Zwar wird allgemein von einem 'agilen Framework' berichtet, das 'der Kundennutzen, die Kundenanforderungen und die Kundenzufriedenheit im Vordergrund' stellt [Russ et al., 2025, S. 339], sowie von 'agilen und schlanken IT-Prinzipien' [Russ et al., 2025, S. 334], jedoch wird SAFe an keiner Stelle explizit als eingesetztes Framework benannt. Die Studie wurde zwar im Rahmen des COVID-19-Aufrufs des Digital Futures Fund durchgeführt [Russ et al., 2025, S. 341-342], was den pandemiebezogenen Kontext bestätigt, jedoch ohne spezifische Aussagen zur Rolle von SAFe.\"\n\nDas ist korrekt und folgt Regel 6.\n\nJetzt zu den Merkmalen:\n- Strukturelle Merkmale: 100 Mitarbeitende, 100+ IT-Dienstleistungen, 3 Standorte [S. 334]\n- Strategische Merkmale: IT",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 339",
+            "p. 334",
+            "pp. 341-342",
+            "p. 333"
+          ],
+          "citation_count": 4
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6996
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 339",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6911
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.659
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6554
+          }
+        ]
+      },
+      {
+        "question_id": "q2_factual_orgpaed",
+        "category": "Faktenfrage Organisationspädagogik (Tintoré & Arbós 2013)",
+        "question": "Welche internen Barrieren des organisationalen Lernens identifizieren Tintoré & Arbós in ihrem Fragebogenmodell?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 13.36,
+        "error": null,
+        "answer": "Zu dieser Fragestellung enthalten die bereitgestellten Dokumente **keine ausreichenden Belege**, um die spezifischen internen Barrieren des organisationalen Lernens zu benennen.\n\nIn den vorliegenden Auszügen wird lediglich festgestellt, dass der Fragebogen im Abschnitt zum organisationalen Lernen „a set of seven aspects or factors“ umfasst, die in Abbildung 1 als „Factors that facilitate or impede organisational learning“ dargestellt sind [Tintoré & Arbós, 2013, p. 378]. Zudem wird ausgeführt, dass das Instrument darauf ausgelegt ist, zu identifizieren, „what kind of barriers exist“, um die Lernbereitschaft in der Institution zu bestimmen [Tintoré & Arbós, 2013, p. 377]. Die konkreten inhaltlichen Ausprägungen dieser sieben Faktoren bzw. der spezifischen Barrieren (z. B. bestimmte strukturelle, kulturelle oder prozessuale Hind",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 378",
+            "p. 377"
+          ],
+          "citation_count": 2
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 378",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6864
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6766
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 377",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6745
+          }
+        ]
+      },
+      {
+        "question_id": "q3_factual_empirical",
+        "category": "Faktenfrage Empirische Hochschulforschung (Elbawab 2024)",
+        "question": "Wie beeinflussen die Prozesse 'Information Acquisition' und 'Knowledge Dissemination' die Hochschulleistung laut Elbawab (2024)?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 13.43,
+        "error": null,
+        "answer": "Der Nutzer möchte eine Antwort auf die Forschungsfrage: \"Wie beeinflussen die Prozesse 'Information Acquisition' und 'Knowledge Dissemination' die Hochschulleistung laut Elbawab (2024)?\"\n\nIch muss streng auf Basis der bereitgestellten Textauszüge antworten und jede Kernaussage mit genauer Quellenangabe belegen.\n\nVerfügbare Auszüge:\n1. Auszug 1 (p. 9): Information Acquisition (intern und extern) führt zu besserer Performance. Definition: Identifizieren von Tendenzen und Problemen.\n2. Auszug 2 (p. 11): Details zu Information Acquisition - intern (Studentenzufriedenheit, Curriculum-Feedback, Lehrmethoden, vorherige Erfahrungen) und extern (Wettbewerber, Markt, Arbeitgeber, Politik). Top-Management muss interne und externe Best Practices suchen. Informationserfassung verbessert durch Sammeln von Best Practices und Pädagogiken von Wettbewerbern.\n3. Auszug 3 (p. 11): Vergleich der Performance mit anderen Universitäten. Formale Quellen (Berichte, Rankings, Kooperationen, Fördermittel) und informelle Quellen (Social Media). Verschiedene Stakeholder involviert.\n4. Auszug 4 (p. 7): Organisational Learning Culture (Dialogue and Inquiry, System Connection) hat indirekten Effekt auf University Performance mediiert durch Information Acquisition und Knowledge Dissemination. Konkrete Effektstärken (IE) und Konfidenzintervalle für die Mediation.\n\nWichtige Punkte:\n- Information Acquisition und Knowledge Dissemination sind Mediatoren zwischen Learning Culture und Performance (Auszug 4).\n- Höhere Effizienz der Information Acquisition (intern + extern) führt zu besserer Performance (Auszug 1).\n- Zwei Quellen: intern (innerhalb der Universität) und extern (andere Universitäten im Markt) (Auszug 1, 2).\n- Definition: Identifizieren von Tendenzen und Problemen, was zu besserer Performance führt (Auszug 1).\n- Konkrete indirekte Effekte:\n  - Dialogue and Inquiry -> Information Acquisition -> Performance: IE=0.1427, CI[0.482, 0.2423] (Achtung: Die CI-Werte scheinen im Text vertauscht oder ungewöhnlich formatiert zu sein - normalerweise ist der untere Wert kleiner als der obere. Hier steht CI[0.482, 0.2423] - das ist wahrscheinlich ein Tippfehler im Original oder ich muss es genau so zitieren wie es da steht. Ich zitiere es exakt wie angegeben.)\n  - System Connection -> Information Acquisition -> Performance: IE=0.1800, CI[0.1104, 0.2548]\n  - Dialogue and Inquiry -> Knowledge Dissemination -> Performance: IE=0.2038, CI[0.1306, 0.2865]\n  - System Connection -> Knowledge Dissemination -> Performance: IE=0.1970, CI[0.1351, 0.2638]\n- Alle indirekten Effekte sind statistisch signifikant (95% CI enthält nicht null).\n\nStruktur der Antwort:\n1. Direkter Einfluss: Information Acquisition verbessert Performance direkt (Auszug 1).\n2. Mediationseffekte: Beide Prozesse mediieren den Effekt der Learning Culture auf Performance (Auszug 4).\n3. Mechanismen/Quellen der Information Acquisition: Intern vs. extern (Auszug 1, 2, 3).\n4. Konkrete statistische Befunde zu den indirekten Effekten (Auszug 4).\n\nWichtig: Ich muss zwischen direkten und indirekten Effekten unterscheiden. Auszug 4 spricht von \"indirect effect... mediated by\". Auszug 1 spricht davon, dass höhere Effizienz der Acquisition zu besserer Performance führt (das klingt nach direktem Effekt, aber im Kontext des Modells sind es wahrscheinlich die Mediatoren).\n\nFormulierungen:\n- \"Laut Elbawab (2024) führt eine höhere Effizienz des Informationserwerbsprozesses (Information Acquisition) zu einer besseren Hochschulleistung\" [Elbawab, 2024, p. 9].\n- Die beiden Quellen sind intern (innerhalb der Universität) und extern (andere Universitäten im Markt) [Elbawab, 2024, p. 9].\n- Information Acquisition ist definiert als Prozess des Identifizierens von Tendenzen und Problemen, der zu besserer Performance führt [Elbawab, 2024, p. 9].\n- Beide Prozesse (Information Acquisition und Knowledge Dissemination) wirken als Mediatoren zwischen der organisationalen Lernkultur (Dialogue and Inquiry, System Connection) und der Hochschulleistung [Elbawab, 2024, p. 7].\n- Konkrete Effektstärken nennen mit CI.\n\nAchtung bei den CI-Werten in Auszug 4: \"CI[0.482, 0.2423]\" - das ist ungewöhnlich, da 0.482 > 0.2423. Aber ich muss es exakt so wiedergeben wie im Text, da ich keine Korrekturen vornehmen darf.\n\nAuch wichtig: Der Nutzer fragt spezifisch nach \"Information Acquisition\" und \"Knowledge Dissemination\". Ich sollte beide behandeln.\n\nFür Knowledge Dissemination gibt es in den Auszügen nur den mediierenden Effekt in Auszug 4. Es gibt keine explizite Definition oder Beschreibung des Prozesses selbst in den bereitgestellten Auszügen (außer dass er ein Mediator ist). Das sollte ich transparent machen: \"Zu den konkreten Mechanismen der Knowledge Dissemination enthalten die vorliegenden Auszüge keine detaillierten Ausführungen, sondern lediglich den statistischen Nachweis ihrer mediierenden Wirkung...\" [Elbawab, 2024, p. 7].\n\nAber warte: Auszug 1 erwähnt \"dissemination processes\" am Anfang: \"the better the university's performance is going to occur in universities. So practically, the higher the efficiency of the acquisition of knowledge process...\" - hier wird Dissemination erwähnt, aber nicht detailliert beschrieben. Der Fokus liegt auf Acquisition.\n\nAlso:\n- Information Acquisition: detailliert beschrieben (Quellen, Methoden, Stakeholder) in Auszug 1, 2, 3.\n- Knowledge Dissemination: nur als Mediator in Auszug 4 erwähnt mit statistischen Werten.\n\nIch sollte auch die Unterscheidung zwischen direktem und indirektem Effekt klar machen. Auszug 4 sagt explizit \"indirect effect... mediated by\". Das bedeutet, die Lernkultur wirkt über diese Prozesse auf die Performance.\n\nZusammenfassung der Antwortstruktur:\n1. Direkte Wirkung von Information Acquisition auf Performance (Auszug 1).\n2. Mediation: Beide Prozesse als Mediatoren zwischen Lernkultur und Performance (Auszug 4) mit spezifischen Effektstärken.\n3. Quellen und Mechanismen der Information Acquisition (intern/extern, formal/informell) (Auszug 2, 3).\n4. Hinweis auf fehlende Details zu Knowledge Dissemination in den vorliegenden Auszügen (nur statistische Mediation).\n\nZitationsformat: [Elbawab, 2024, p. X] oder [Elbawab, 2024, S. X]? Die Anweisung sagt: \"Ver",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 11",
+            "p. 9",
+            "p. 7"
+          ],
+          "citation_count": 3
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 9",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.7072
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6748
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 7",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6407
+          }
+        ]
+      },
+      {
+        "question_id": "q4_crosslingual_en_de",
+        "category": "Translinguale Frage EN -> DE (Russ et al. 2025)",
+        "question": "How did the leadership role and coordination between university management and ICT change after the COVID-19 pandemic according to Russ et al.?",
+        "language": "en",
+        "status_code": 200,
+        "latency_seconds": 13.38,
+        "error": null,
+        "answer": "The user wants me to answer a specific research question based on the provided source excerpts from Russ et al. (2025). The question is: \"How did the leadership role and coordination between university management and ICT change after the COVID-19 pandemic according to Russ et al.?\"\n\n I need to:\n 1. Answer strictly based on the provided context chunks\n 2. Use exact citations [Author, Year, Page]\n 3. Not hallucinate any information\n 4. Answer in clear academic English\n 5. Distinguish between findings and interpretations if needed\n\n Let me analyze the provided excerpts:\n\n [AUSZUG 1] (p. 332) - Abstract:\n - \"In 2022, a follow-up study was conducted with a similar setup to identify possible changes after the COVID-19 pandemic.\"\n - \"There were partial differences in collaboration and leadership.\"\n - \"University management was perceived primarily as a prioritizer, while information and communication technology management was increasingly focused on implementing strategies.\"\n - \"The focus of information and communication technology has changed from strategic considerations to operational and customer-oriented services.\"\n - \"The return to normality increased the focus on structured processes; some positive aspects of the pandemic period, such as team cohesion and innovative spirit, rather diminished.\"\n\n [AUSZUG 2] (pp. 332-333):\n - Describes the 2020 study: \"Die nach 'aussen orientierte' obere bzw. mittlere Managementebene definierte sowie verfolgte die Geschäfts- und Innovationsstrategie. Die Verwaltung auf den unteren Ebenen konzentrierte sich hingegen auf die Bereitstellung der Informationssysteme und der diesbezüglichen organisatorischen Infrastruktur.\"\n - Translation: The \"outward-oriented\" upper or middle management level defined and pursued the business and innovation strategy. The administration at the lower levels, on the other hand, focused on providing the information systems and the related organizational infrastructure.\n\n [AUSZUG 4] (p. 338):\n - \"Im Fokus des Managements von ZHAW-ICT steht offenbar die Strategieumsetzung und die Aufrechterhaltung des Betriebs.\"\n - Translation: The focus of ZHAW-ICT management is apparently on strategy implementation and maintaining operations.\n - \"Nur scheinbar im Widerspruch zur Rolle der Hochschulleitung...\" (Only apparently in contradiction to the role of university leadership...)\n\n So the changes after COVID-19 (comparing 2020 to 2022) according to the abstract (AUSZUG 1):\n 1. University management perceived primarily as a \"prioritizer\" (vs. previously defining/pursuing strategy?)\n 2. ICT management increasingly focused on implementing strategies (vs. previously strategic considerations?)\n 3. ICT focus changed from strategic considerations to operational and customer-oriented services\n 4. Partial differences in collaboration and leadership\n 5. Return to normality increased focus on structured processes\n 6. Some positive aspects of pandemic period (team cohesion, innovative spirit) diminished\n\n From AUSZUG 2 (2020 context): Upper/middle management defined and pursued business/innovation strategy; lower levels focused on providing IS and infrastructure.\n\n From AUSZUG 4 (2022 context): ICT management focuses on strategy implementation and maintaining operations; university leadership role is apparently different (the text cuts off but implies a contrast).\n\n Wait, I need to be careful. AUSZUG 4 says \"Nur scheinbar im Widerspruch zur Rolle der Hochschulleitung\" - this suggests that the ICT management's focus on strategy implementation and operations is only apparently in contradiction to the university leadership's role. This implies the university leadership has a different role (likely the prioritizer role mentioned in the abstract).\n\n So synthesizing:\n - Before/during COVID (2020): Upper/middle management defined and pursued business/innovation strategy; lower levels provided IS infrastructure [Russ et al., 2025, pp. 332-333]\n - After COVID (2022): University management perceived primarily as a prioritizer; ICT management increasingly focused on implementing strategies; ICT focus shifted from strategic considerations to operational and customer-oriented services [Russ et al., 2025, p. 332]\n - Also: ICT management focus on strategy implementation and maintaining operations [Russ et al., 2025, p. 338]\n - Partial differences in collaboration and leadership [Russ et al., 2025, p. 332]\n - Return to normality increased focus on structured processes [Russ et al., 2025, p. 332]\n\n The question specifically asks about \"leadership role and coordination between university management and ICT\" after COVID-19.\n\n Key points:\n 1. University management was perceived primarily as a prioritizer [Russ et al., 2025, p. 332]\n 2. ICT management was increasingly focused on implementing strategies [Russ et al., 2025, p. 332]\n 3. The focus of ICT changed from strategic considerations to operational and customer-oriented services [Russ et al., 2025, p. 332]\n 4. There were partial differences in collaboration and leadership [Russ et al., 2025, p. 332]\n 5. ICT management focus is on strategy implementation and maintaining operations [Russ et al., 2025, p. 338]\n 6. This is only apparently in contradiction to the role of university leadership [Russ et al., 2025, p. 338]\n\n I should also mention the contrast with the 2020 situation described in AUSZUG 2 to show the change: previously the upper/middle management defined and pursued strategy, while lower levels provided systems [Russ et al., 2025, pp. 332-333].\n\n Structure of answer:\n - Direct answer based on the 2022 follow-up study findings\n - Specific roles: University management as prioritizer vs. ICT management as strategy implementer\n - Shift in ICT focus: from strategic to operational/customer-oriented\n - Changes in collaboration/leadership: partial differences, return to structured processes\n - The apparent contradiction between ICT focus on operations and university leadership role (from p. 338)\n\n Citations must be exact: [Russ et al., 2025, p. 332], [Russ et al., 2025, pp. 332-333], [Russ et al., 2025, p. 338]\n\n I must not invent anything. The text in AUSZUG 4 is cut off after \"drückt es ein Vertreter des ICT-Managements wie folgt aus:\" but the sentence before gives the key info: \"Im Fokus des Managements von ZHAW-ICT steht offenbar die Strategieumsetzung und die Aufrechterhaltung des Betriebs. Nur scheinbar im Widerspruch zur Rolle der Hochschulleitung...\"\n\n So I can say that according to the authors, the focus of ZHAW-ICT management is on strategy implementation and maintaining operations, which is only apparently in contradiction to the role of university leadership [Russ et al., 2025, p. 338].\n\n Also from the abstract: \"University management was perceived primarily as a prioritizer, while information and communication technology management was increasingly focused on implementing strategies\" [Russ et al., 2025, p. 332].\n\n And: \"The focus of information and communication technology has changed from strategic considerations to operational and customer-oriented services\" [Russ et al.,",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "pp. 332-333",
+            "p. 338",
+            "p. 332"
+          ],
+          "citation_count": 3
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.7334
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6516
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.644
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 338",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6423
+          }
+        ]
+      },
+      {
+        "question_id": "q5_interdisciplinary",
+        "category": "Interdisziplinärer Vergleich (WI vs. OrgPäd)",
+        "question": "Inwiefern unterscheidet sich der Blickwinkel der Wirtschaftsinformatik (Business-IT-Alignment) von jenem der Organisationspädagogik (Lernkultur) bei der Transformation von Hochschulen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 13.41,
+        "error": null,
+        "answer": "Der Nutzer möchte eine Antwort auf die Forschungsfrage: \"Inwiefern unterscheidet sich der Blickwinkel der Wirtschaftsinformatik (Business-IT-Alignment) von jenem der Organisationspädagogik (Lernkultur) bei der Transformation von Hochschulen?\"\n\nIch muss streng auf Basis der vier bereitgestellten Textauszüge antworten:\n\n1. Russ et al. (2025), p. 334: IT-Governance als Versuch, geschäftlichen Nutzen der IT zu maximieren; BITA als häufiger und wichtiger Schwerpunkt in IT-Governance-Definitionen.\n2. Elbawab (2024), pp. 10-11: Praktische Implikationen für Universitäten; organisational learning culture führt zu verbessertem organisational learning process, was zu verbesserter organisational performance und sustainable performance führt.\n3. Russ et al. (2025), p. 332: Schlüsselwörter (IKT, Hochschule, Organisationskultur, BITA, Agilität, COVID-19); Anregungen für radikale Veränderungen und Wertbeitrag der IT.\n4. Elbawab (2024), p. 2: Universitäten stehen vor verschiedenen Veränderungen (Digitalisierung, Nachhaltigkeit, etc.); organisational learning als bewährter Weg zur Anpassung an Wandel und Leistungssteigerung.\n\nWichtige Regeln:\n- Strikte Quellenbindung, keine Halluzinationen\n- Zitationsformat: [Kurztitel, Jahr, Seitenzahl] z.B. [Russ et al., 2025, S. 334] oder [Elbawab, 2024, S. 2]\n- Deutsch als Standardsprache\n- Englische Zitate im Original oder als Übersetzung kennzeichnen\n- Differenzierung zwischen Befunden und Hypothesen\n- Forschungslücken erkennen (hier: Die Dokumente behandeln die Unterschiede nicht explizit vergleichend, sondern nebeneinander)\n- Spannungsfelder zwischen WI und Organisationspädagogik hervorheben\n\nAnalyse der Unterschiede basierend auf den Texten:\n\nWirtschaftsinformatik (Russ et al.):\n- Fokus auf IT-Governance und Business-IT-Alignment (BITA)\n- Ziel: Maximierung des geschäftlichen Nutzens der IT für die Organisation (Hochschule) [Russ et al., 2025, S. 334]\n- BITA als zentraler Schwerpunkt in IT-Governance-Definitionen [Russ et al., 2025, S. 334]\n- Bezug zu radikalen Veränderungen (COVID-19, Agilität) und Steigerung des Wertbeitrags der IT [Russ et al., 2025, S. 332]\n- Steuerungsorientiert, technologisch-strukturell (IT-Governance, Alignment)\n\nOrganisationspädagogik (Elbawab):\n- Fokus auf organisational learning culture und organisational learning process\n- Ziel: Anpassung an Wandel (Digitalisierung, Nachhaltigkeit etc.) und Steigerung der organisational performance sowie sustainable performance [Elbawab, 2024, S. 2; S. 10-11]\n- Lernorientiert, mitarbeiter-/kulturorientiert (Learning Culture)\n- Universities als Organisationen, die lernen müssen, um sich anzupassen [Elbawab, 2024, S. 2]\n\nUnterschiede:\n1. Steuerungslogik vs. Lernlogik: WI fokussiert auf Governance und Alignment (top-down Steuerung des IT-Nutzens), OP auf Lernkultur und -prozesse (bottom-up/organisationsweites Lernen).\n2. Zielsetzung: WI: geschäftlicher Nutzen/Wertbeitrag der IT maximieren [Russ et al., 2025, S. 334]; OP: Anpassung an Wandel und nachhaltige Performance durch Lernen [Elbawab, 2024, S. 2, 10-11].\n3. Transformationsverständnis: WI: radikale Veränderungen (z.B. COVID-19) erfordern Agilität und BITA [Russ et al., 2025, S. 332]; OP: Wandel (Digitalisierung etc.) wird durch organisational learning bewältigt [Elbawab, 2024, S. 2].\n4. Adressat: WI: IT-Governance-Strukturen und -Prozesse; OP: organisationale Lernkultur und Stakeholder in Universitäten [Elbawab, 2024, S. 10-11].\n\nWichtig: Die Dokumente selbst stellen keinen direkten Vergleich her. Ich muss darauf hinweisen, dass dies eine Lücke in der Dokumentenauswahl ist (Regel 5a), aber die unterschiedlichen Perspektiven aus den Texten ableiten.\n\nSpannungsfeld (Regel 7): Technologisch-strukturelle Steuerung (BITA, Governance) vs. mitarbeiterorientierte Lernkultur. Aber nicht als fundamentaler Widerspruch darstellen, sondern als komplementäre Perspektiven.\n\nStruktur der Antwort:\n1. Einleitung: Hinweis, dass die Dokumente die Perspektiven nebeneinander darstellen, nicht explizit vergleichen (Lücke in der Dokumentenauswahl).\n2. Perspektive der Wirtschaftsinformatik (BITA): Fokus auf IT-Governance, Nutzenmaximierung, Alignment [Russ et al., 2025, S. 334], radikale Veränderungen/Agilität [Russ et al., 2025, S. 332].\n3. Perspektive der Organisationspädagogik (Lernkultur): Fokus auf organisational learning zur Bewältigung von Wandel (Digitalisierung etc.) [Elbawab, 2024, S. 2], kausaler Zusammenhang Lernkultur -> Lernprozess -> Performance [Elbawab, 2024, S. 10-11].\n4. Systematischer Vergleich der Blickwinkel (Steuerung vs. Lernen, Nutzen vs. Anpassung, IT-Fokus vs. organisationales Lernen).\n5. Spannungsfeld/Synthese: Beide adressieren Transformation von Hochschulen, aber WI eher strukturell-technisch (Governance/Alignment), OP eher kulturell-prozessual (Lernkultur). Hinweis, dass die Dokumente keine explizite Integration beider Perspektiven untersuchen (Lücke).\n\nZitate prüfen:\n- [Russ et al., 2025, S. 334] für IT-Governance und BITA\n- [Russ et al., 2025, S. 332] für radikale Veränderungen, COVID-19, Agilität, Wertbeitrag der IT\n- [Elbawab, 2024, S. 2] für Wandel (Digitalisierung etc.) und organisational learning als Anpassungsweg\n- [Elbawab, 2024, S. 10-11] für den kausalen Zusammenhang Lernkultur -> Lernprozess -> Performance und praktische Implikationen für Universitäten\n\nEnglische Zitate:\n- \"organisational learning culture\" [Elbawab, 2024, S. 10-11] - kann ich im Original lassen oder übersetzen. Da es Fachbegriffe sind, kann ich sie im Original lassen oder mit Übersetzung. Ich werde sie als Fachbegriffe behandeln und ggf. in Klammern übersetzen oder direkt übersetzen mit Hinweis. Aber Regel 3 sagt: Wörtliche Zitate aus englischsprachigen Quellen müssen im Original belassen werden ODER als Übersetzung gekennzeichnet. Da ich keine wörtlichen Zitate im engeren Sinne (Satzzeichen) brauche,",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 334",
+            "p. 2",
+            "p. 332",
+            "pp. 10-11"
+          ],
+          "citation_count": 4
+        },
+        "is_abstention": false,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 334",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6325
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "pp. 10-11",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6171
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6023
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 2",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.6023
+          }
+        ]
+      },
+      {
+        "question_id": "q6_digihochx_tensions",
+        "category": "Kulturelle Tensions DigiHochX (Verwaltung / Forschung / Lehre)",
+        "question": "Welche Spannungen und Konflikte entstehen an den Schnittstellen zwischen Verwaltung, Forschung und Lehre durch Digitalisierungsmaßnahmen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 13.39,
+        "error": null,
+        "answer": "Der Nutzer möchte, dass ich die Forschungsfrage \"Welche Spannungen und Konflikte entstehen an den Schnittstellen zwischen Verwaltung, Forschung und Lehre durch Digitalisierungsmaßnahmen?\" auf Basis der bereitgestellten Textauszüge beantworte.\n\n Ich muss die Regeln beachten:\n 1. Strikte Quellenbindung - nur die 4 Auszüge verwenden\n 2. Zitationspflicht mit genauen Seitenzahlen im Format [Kurztitel, Jahr, S. X]\n 3. Deutsch antworten (Standard), wörtliche Zitate aus englischen Quellen im Original oder als Übersetzung kennzeichnen\n 4. Differenzierung zwischen Befunden, Hypothesen, Interpretationen\n 5. Forschungslücken erkennen und unterscheiden zwischen Dokumentenlücken und Literatur-Lücken\n 6. Bei unzureichender Evidenz: \"Zu dieser Fragestellung enthalten die bereitgestellten Dokumente keine ausreichenden Belege.\"\n 7. Spannungsfelder zwischen Wirtschaftsinformatik (technologisch-strukturell) und Organisationspädagogik (mitarbeiterorientiert) hervorheben\n\n Analyse der Auszüge:\n\n Auszug 1 (Russ et al., 2025, pp. 332-333):\n - Corona-Krise führte zu Digitalisierungsschub, Homeoffice, Videokonferenzen\n - Hochschulsektor stark beeinflusst\n - Projekt 2020: Stimmung bei ZHAW-ICT und Stakeholdern während Corona\n - Zusammenhang zwischen Organisationskultur und Business-IT-Alignment (BITA)\n - ZHAW-ICT wahrgenommen als kontrolliert/strukturiert ABER auch freundlich, Loyalität, gegenseitiges Vertrauen, Respekt\n - Diese kulturelle Fähigkeit half, auf dringende Bedürfnisse zu reagieren\n - Abstimmung von Business und IT auf verschiedenen Führungsebenen entscheidend\n - \"Nach aussen orientierte\" obere/mittlere Managementebene: Geschäfts- und Innovationsstrategie\n - Verwaltung auf unteren Ebenen: Bereitstellung der Informationssysteme und organisatorische Infrastruktur\n\n Auszug 2 (Russ et al., 2025, p. 341):\n - Corona zwang Organisationen zur schnellen Reaktion auf neue Rahmenbedingungen\n - Digitalisierungsschub\n - Führungskräfte mussten unter Zeitdruck entscheiden, Mitarbeitende mussten rasch implementieren/adaptieren\n - Auch Hochschulen betroffen\n - Spuren in Zusammenarbeit der ICT mit Fachbereichen sowie in Unternehmenskultur\n\n Auszug 3 (Tintoré & Arbós, 2013, p. 376):\n - Spanischer Text über \"aprendizaje organizativo\" (organisationales Lernen) in Universitäten\n - Instrument (Fragebogen) zur Erfassung des organisationalen Lernens in Universitäten/Fakultäten/Departments\n - Ziel: Verbesserung von Governance und Management\n - Keywords: organisational learning, learning stage, learning universities\n\n Auszug 4 (Russ et al., 2025, p. 332):\n - Nur Keywords und ein Satz: \"Anregungen geben, um in Zukunft besser auf radikale Veränderungen vorbereitet zu sein und den Wertbeitrag der IT als Ganzes zu steigern.\"\n\n Jetzt zur Forschungsfrage: \"Welche Spannungen und Konflikte entstehen an den Schnittstellen zwischen Verwaltung, Forschung und Lehre durch Digitalisierungsmaßnahmen?\"\n\n Was sagen die Texte dazu?\n\n 1. Auszug 1 zeigt eine Spannung zwischen:\n    - Oberer/mittlerer Managementebene (nach außen orientiert, Strategie) vs. untere Verwaltungsebene (Bereitstellung von IS und Infrastruktur)\n    - Kontrolliert/strukturiert vs. freundlich/vertrauensvoll (Organisationskultur)\n    - Aber: Es wird nicht explizit von \"Konflikten\" gesprochen, sondern von einem \"interessanten Zusammenhang\" und dass die kulturelle Fähigkeit half zu reagieren\n\n 2. Auszug 2 erwähnt:\n    - Zeitdruck bei Entscheidungen der Führungskräfte vs. rasche Implementierung durch Mitarbeitende\n    - Spuren in der Zusammenarbeit der ICT mit Fachbereichen (was Forschung und Lehre betrifft) und in der Unternehmenskultur\n    - Aber: Es wird nicht explizit von Spannungen/Konflikten an den Schnittstellen gesprochen, sondern von Veränderungen/Spuren\n\n 3. Auszug 3 ist sehr allgemein über organisationales Lernen in Universitäten, aber nicht spezifisch zu Spannungen zwischen Verwaltung, Forschung und Lehre bei Digitalisierung.\n\n Wichtige Einschränkung: Die bereitgestellten Dokumente behandeln primär:\n - Business-IT-Alignment und Organisationskultur an einer ICT-Abteilung einer Hochschule (ZHAW)\n - Organisational Learning Capacity in Universitäten allgemein\n\n Sie behandeln NICHT explizit:\n - Spannungen/Konflikte zwischen Verwaltung, Forschung und Lehre als solchen\n - Die spezifischen Schnittstellen zwischen diesen drei Bereichen\n - Konflikte durch Digitalisierungsmaßnahmen an diesen Schnittstellen\n\n Was ich sagen kann:\n - Es gibt Hinweise auf eine Spannung zwischen strategischer Ebene (obere/mittlere Managementebene) und operativer Ebene (untere Verwaltungsebene) bezüglich BITA [Russ et al., 2025, S. 332-333]\n - Es gab Zeitdruck und die Notwendigkeit rascher Entscheidungen vs. Implementierung [Russ et al., 2025, S. 341]\n - Die Zusammenarbeit zwischen ICT und Fachbereichen (die Forschung und Lehre umfassen) wurde beeinflusst [Russ et al., 2025, S. 341]\n - Die Organisationskultur (kontrolliert/strukturiert vs. vertrauensvoll) spielte eine Rolle bei der Bewältigung [Russ et al., 2025, S. 332-333]\n\n Aber: Explizite \"Spannungen und Konflikte an den Schnittstellen zwischen Verwaltung, Forschung und Lehre\" werden in den Texten nicht detailliert beschrieben. Es wird von \"Spuren in der Zusammenarbeit\" gesprochen, aber nicht von Konflikten.\n\n Daher muss ich gemäß Regel 6 (Abstention) und Regel 5 (Forschungslücken) vorgehen:\n - Klarstellen, dass die Dokumente keine ausreichenden Belege für explizite Konflikte an diesen spezifischen Schnittstellen enthalten\n - Aber: Die vorhandenen Aspekte (BITA-Ebenen, Zeitdruck, kulturelle Spannungen zwischen Kontrolle und Vertrauen) als relevante Nachbargebiete nennen\n\n Struktur der Antwort:\n 1. Direkte Beantwortung mit Einschränkung: Die Dokumente liefern keine expliziten Befunde zu Konflikten an den Schnittstellen Verwaltung-Forschung-Lehre, sondern behandeln BITA und Organisationskultur in der ICT-Abteilung sowie organisationales Lernen allgemein.\n 2. Was die Dokumente zeigen (die relevanten Spannungsfelder):\n    a) Hierarchische Spannung im BITA: Obere/mittlere Managementebene (Strategie) vs. untere Verwaltungsebene (Infrastruktur/Bereitstellung) [Russ et al., 2025, S. 332-333]\n    b) Kulturelle Spannung: Kontrolliert/strukturiert vs. freundschaftlich/vertrauensvoll [Russ et al., 2025, S. 332-333]\n    c) Zeitdruck-Spannung: Führungskräfteentscheidungen unter Zeitdruck vs. rasche Implementierung durch Mitarbeitende [Russ et al., 2025, S. 341]\n    d) Auswirkung auf Zusammenarbeit: Spuren in der Zusammenarbeit zwischen ICT und Fachbereichen (Forschung/Lehre) [Russ et al., 2025, S. 341]\n 3. Forschungslücke identifizieren: Die Dokumente untersuchen nicht explizit die Schnittstellen zwischen Verwaltung, Forschung und Lehre",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 332",
+            "p. 341",
+            "p. 376",
+            "pp. 332-333"
+          ],
+          "citation_count": 4
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 332-333",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6781
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 341",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.6607
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 376",
+            "discipline": "Organisationspädagogik",
+            "score": 0.6269
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "p. 332",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.606
+          }
+        ]
+      },
+      {
+        "question_id": "q7_abstention",
+        "category": "Abstentions- / Anti-Halluzinationstest (Hors-Corpus)",
+        "question": "Welche genauen Fördersummen und Fristen wurden vom Land Niedersachsen für das Digitalpaket 2026 der Universität Hildesheim beschlossen?",
+        "language": "de",
+        "status_code": 200,
+        "latency_seconds": 10.0,
+        "error": null,
+        "answer": "Zu dieser Fragestellung enthalten die bereitgestellten Dokumente keine ausreichenden Belege.\n\nIn den vier vorliegenden Textauszügen werden weder das Land Niedersachsen noch ein „Digitalpaket 2026“ der Universität Hildesheim, konkrete Fördersummen oder entsprechende Fristen erwähnt. Es handelt sich hierbei um eine **Lücke in der aktuellen Dokumentenauswahl des Chatbots**: Die bereitgestellten Chunks behandeln andere Förderkontexte und Themenfelder.\n\nStattdessen finden sich in den Texten folgende relevante Nachbargebiete:\n\n*   Ein Förderprogramm wird lediglich im Kontext der **ZHAW (Schweiz)** erwähnt: Russ et al. (2025) berichten über den „Digital Futures Fund“ (DFF) von ZHAW digital, dessen außerordentlicher COVID-19-Aufruf sich an Mitarbeitende der ZHAW richtete [Russ et al., 2025, S. 341–342]. Hierbei handelt es sich jedoch nicht um eine niedersächsische Landesförderung.\n*   Elbawab (2024) behandelt in den vorliegenden Auszügen ausschließlich bibliografische Metadaten und Literaturverweise zu Learning Culture und Performance an Hochschulen [Elbawab, 2024, S. 12–13], ohne Förderprogramme zu thematisieren.\n*   Tintoré & Arbós (2013) fokussieren auf die Organisational Learning Capacity von Universitäten [Tintoré & Arbós, 2013, S. 375], ebenfalls ohne Bezug zu spezifischen nationalen Förderpaketen.\n\nFür die Beantwortung Ihrer Forschungsfrage müssten zusätzliche Dokumente bereitgestellt werden, die explizit die Förderzusagen des Landes Niedersachsen für die Universität Hildesheim dokumentieren.",
+        "citations_eval": {
+          "has_bracket_citations": true,
+          "matched_sources": [],
+          "matched_pages": [
+            "p. 12",
+            "p. 375"
+          ],
+          "citation_count": 2
+        },
+        "is_abstention": true,
+        "retrieved_sources": [
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 12",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.5012
+          },
+          {
+            "short_title": "Russ et al. (2025) - BITA & Organisationskultur",
+            "page_display": "pp. 341-342",
+            "discipline": "Wirtschaftsinformatik",
+            "score": 0.501
+          },
+          {
+            "short_title": "Tintoré & Arbós (2013) - Organisational Learning Capacity",
+            "page_display": "p. 375",
+            "discipline": "Organisationspädagogik",
+            "score": 0.4667
+          },
+          {
+            "short_title": "Elbawab (2024) - Learning Culture & Performance",
+            "page_display": "p. 13",
+            "discipline": "Organisationspädagogik / Hochschulforschung",
+            "score": 0.4476
+          }
+        ]
+      }
+    ]
+  }
+}
